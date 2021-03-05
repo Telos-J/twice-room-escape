@@ -1,6 +1,5 @@
 #container {
-    position: absolute;
-    transform: scale(0.7) translate(-382px, -228px);
+    transform: scale(0.6) translate(-550px, -350px);
     height: 1000px;
     width: 1500px;
     overflow: hidden;
@@ -200,12 +199,76 @@
     top: 593px;
 }
 
-#bubbles {
+#bubble1 {
     position: absolute;
-    width: 59px;
-    height: 31px;
+    width: 16px;
+    height: 17px;
     left: 1040px;
-    top: 630px;
+    top: 645px;
+}
+
+#bubble2 {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 633px;
+}
+
+#bubble3 {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 636px;
+}
+
+#bubble4 {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 631px;
+}
+
+#bubble5 {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 647px;
+}
+
+#bubble6 {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 639px;
+}
+
+#bubble7 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 648px;
+}
+
+#bubble8 {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 638px;
+}
+
+#bubble9 {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 629px;
 }
 
 #straw {
