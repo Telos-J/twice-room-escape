@@ -1,0 +1,218 @@
+#container {
+    position: absolute;
+    transform: scale(0.7) translate(-382px, -228px);
+    height: 1000px;
+    width: 1500px;
+    overflow: hidden;
+}
+
+#rose-flower {
+    position: absolute;
+    width: 78px;
+    height: 73px;
+    left: 371px;
+    top: 505px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+
+
+#rose-flower::after {
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    content: '';
+    background-color: #f0f;
+    border-radius: 50%;
+    transform: translate(46px, 62px);
+    z-index: 10;
+}
+
+@keyframes rotate10deg {
+    0% {
+        transform: rotate(-7deg);
+    }
+    100% {
+        transform: rotate(3deg);
+    }
+}
+
+#rose-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 381px;
+    top: 561px;    
+}
+
+#rose-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 368px;
+    top: 529px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#rose-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 384px;
+    top: 541px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#rose-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 368px;
+    top: 619px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#rose-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 395px;
+    top: 602px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#table {
+    position: absolute;
+    width: 380px;
+    height: 221px;
+    left: 796px;
+    top: 600px;
+}
+
+#floor {
+    position: absolute;
+    width: 2025px;
+    height: 600px;
+    left: -240px;
+    top: 650px;
+}
+
+#Wall1 {
+    position: absolute;
+    width: 570px;
+    height: 1100px;
+    left: -226px;
+    top: -80px;
+}
+
+#wall2 {
+    position: absolute;
+    width: 1015px;
+    height: 850px;
+    left: 270px;
+    top: -80px;
+}
+
+#Wall3 {
+    position: absolute;
+    width: 600px;
+    height: 1205px;
+    left: 1200px;
+    top: -80px;
+}
+
+#painting {
+    position: absolute;
+    width: 424px;
+    height: 209px;
+    left: 532px;
+    top: 64px;
+}
+
+#flowerpot {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 370px;
+    top: 678px;
+}
+
+#cup {
+    position: absolute;
+    width: 114px;
+    height: 124px;
+    left: 1010px;
+    top: 550px;
+}
+
+#drink {
+    position: absolute;
+    width: 94px;
+    height: 74px;
+    left: 1020px;
+    top: 593px;
+}
+
+#bubbles {
+    position: absolute;
+    width: 59px;
+    height: 31px;
+    left: 1040px;
+    top: 630px;
+}
+
+#straw {
+    position: absolute;
+    width: 21px;
+    height: 85px;
+    left: 1023px;
+    top: 525px;
+}
+
