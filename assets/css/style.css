@@ -3,6 +3,7 @@
     height: 1000px;
     width: 1500px;
     overflow: hidden;
+    position: absolute;
 }
 
 #rose-flower {
