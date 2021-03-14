@@ -309,9 +309,9 @@
 #letter {
     position: absolute;
     width: 388px;
-    height: 298px;
+    height: 320px;
     left: 525px;
-    top: 392px;
+    top: 380px;
 }
 
 #lightstick {
@@ -324,10 +324,18 @@
 
 #question {
     position: absolute;
-    width: 215px;
-    height: 87px;
-    left: 624px;
-    top: 431.91px;
+    width: 197px;
+    height: 58px;
+    left: 655px;
+    top: 427px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+
+color: #000000;
 }
 
 #answer1 {
@@ -335,7 +343,25 @@
     width: 198px;
     height: 59px;
     left: 631px;
-    top: 478px;    
+    top: 478px; 
+    
+
+#answer1-text {
+    position: absolute;
+    width: 171px;
+    height: 21px;
+    left: 646px;
+    top: 501px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
 }
 
 #answer2 {
@@ -343,7 +369,26 @@
     width: 198px;
     height: 59px;
     left: 628px;
-    top: 518px;    
+    top: 518px;   
+       
+}
+
+#answer2-text {
+    position: absolute;
+    width: 171px;
+    height: 21px;
+    left: 647px;
+    top: 543px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer; 
 }
 
 #answer3 {
@@ -352,6 +397,25 @@
     height: 59px;
     left: 630px;
     top: 560px;
+       
+}
+
+#answer3-text {
+    position: absolute;
+    width: 170px;
+    height: 23px;
+    left: 647px;
+    top: 582px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
 }
 
 #answer4 {
@@ -359,5 +423,23 @@
     width: 198px;
     height: 59px;
     left: 629px;
-    top: 602px
+    top: 602px;       
+}
+
+#answer4-text {
+    position: absolute;
+    width: 170px;
+    height: 23px;
+    left: 647px;
+    top: 625px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
 }
