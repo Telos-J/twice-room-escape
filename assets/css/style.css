@@ -297,20 +297,29 @@
     top: 299px;
 }
 
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
 #letter {
     position: absolute;
-    width: 350px;
-    height: 269px;
-    left: 546px;
-    top: 405px;
+    width: 388px;
+    height: 298px;
+    left: 525px;
+    top: 392px;
 }
 
 #lightstick {
     position: absolute;
     width: 27px;
     height: 28px;
-    left: 818px;
-    top: 617px;
+    left: 825px;
+    top: 628px;
 }
 
 #question {
@@ -323,32 +332,32 @@
 
 #answer1 {
     position: absolute;
-    width: 209px;
-    height: 181px;
-    left: 623px;
-    top: 481px;
+    width: 198px;
+    height: 59px;
+    left: 631px;
+    top: 478px;    
 }
 
 #answer2 {
     position: absolute;
-    width: 209px;
-    height: 166px;
-    left: 623px;
-    top: 496px;
+    width: 198px;
+    height: 59px;
+    left: 628px;
+    top: 518px;    
 }
 
 #answer3 {
     position: absolute;
-    width: 209px;
-    height: 166px;
-    left: 623px;
-    top: 496px;     
+    width: 198px;
+    height: 59px;
+    left: 630px;
+    top: 560px;
 }
 
 #answer4 {
     position: absolute;
-    width: 209px;
-    height: 170px;
-    left: 623px;
-    top: 496px;
+    width: 198px;
+    height: 59px;
+    left: 629px;
+    top: 602px
 }

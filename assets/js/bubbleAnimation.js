@@ -16,6 +16,7 @@ document.querySelector('#bubble-tea').addEventListener('click', () => {
     onComplete() {
         document.querySelector('#firework').style.display = 'block';
         document.querySelector('#bubble1').style.display = 'none';
+        document.querySelector('#quiz').classList.add('show');
     }
     });
 
