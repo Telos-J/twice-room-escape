@@ -17,9 +17,7 @@
     transform-origin: 46px 62px;
 }
 
-
-
-#rose-flower::after {
+/* #rose-flower::after {
     position: absolute;
     left: 0;
     width: 5px;
@@ -29,7 +27,7 @@
     border-radius: 50%;
     transform: translate(46px, 62px);
     z-index: 10;
-}
+} */
 
 @keyframes rotate10deg {
     0% {
@@ -298,7 +296,7 @@
 }
 
 #quiz {
-    opacity: 0;
+    opacity: 1;
     transition: opacity 1s;
 }
 
@@ -335,7 +333,7 @@
     font-size: 23px;
     line-height: 33px;
 
-color: #000000;
+    color: #000000;
 }
 
 #answer1 {
@@ -344,7 +342,7 @@ color: #000000;
     height: 59px;
     left: 631px;
     top: 478px; 
-    
+}
 
 #answer1-text {
     position: absolute;
@@ -362,6 +360,24 @@ color: #000000;
 
     color: #000000;
     cursor: pointer;   
+}
+
+#answer1-text {
+    position: absolute;
+    width: 171px;
+    height: 21px;
+    left: 646px;
+    top: 501px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
 }
 
 #answer2 {
@@ -391,6 +407,24 @@ color: #000000;
     cursor: pointer; 
 }
 
+#answer2-text {
+    position: absolute;
+    width: 171px;
+    height: 21px;
+    left: 647px;
+    top: 543px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
 #answer3 {
     position: absolute;
     width: 198px;
@@ -418,12 +452,30 @@ color: #000000;
     cursor: pointer;
 }
 
+#answer3-text {
+    position: absolute;
+    width: 170px;
+    height: 23px;
+    left: 647px;
+    top: 582px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
 #answer4 {
     position: absolute;
     width: 198px;
     height: 59px;
     left: 629px;
-    top: 602px;       
+    top: 602px;
 }
 
 #answer4-text {
