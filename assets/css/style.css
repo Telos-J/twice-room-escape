@@ -280,3 +280,10 @@
     top: 525px;
 }
 
+#bubble-route {
+    position: absolute;
+    width: 265px;
+    height: 195px;
+    left: 769px;
+    top: 350px;
+}
