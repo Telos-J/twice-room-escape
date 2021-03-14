@@ -289,9 +289,10 @@
 }
 
 #firework {
+    display: none;
     position: absolute;
     width: 614px;
     height: 415px;
-    left: 439px;
+    left: 456px;
     top: 299px;
 }

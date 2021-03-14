@@ -10,6 +10,10 @@ document.querySelector('#bubble-tea').addEventListener('click', () => {
         align: "#bubble-path",
         autoRotate: true,
         alignOrigin: [0.5, 0.5]
+    },
+    onComplete() {
+        document.querySelector('#firework').style.display = 'block';
+        document.querySelector('#bubble1').style.display = 'none';
     }
     });
 })
