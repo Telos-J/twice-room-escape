@@ -4,7 +4,7 @@ gsap.registerPlugin(MotionPathPlugin);
 document.querySelector('#bubble-tea').addEventListener('click', () => {
     gsap.to("#bubble1", {
     duration: 1, 
-    ease: CustomEase.create("custom", "M0,0 C0.196,0.322 0.348,0.463 0.54,0.546 0.768,0.644 0.838,0.812 1,1 "),
+    ease: CustomEase.create("custom", "M0,0 C0.102,0.2 0.364,0.406 0.5,0.5 0.639,0.596 0.9,0.8 1,1"),
     motionPath:{
         path: "#bubble-path",
         align: "#bubble-path",
