@@ -296,3 +296,59 @@
     left: 456px;
     top: 299px;
 }
+
+#letter {
+    position: absolute;
+    width: 350px;
+    height: 269px;
+    left: 546px;
+    top: 405px;
+}
+
+#lightstick {
+    position: absolute;
+    width: 27px;
+    height: 28px;
+    left: 818px;
+    top: 617px;
+}
+
+#question {
+    position: absolute;
+    width: 215px;
+    height: 87px;
+    left: 624px;
+    top: 431.91px;
+}
+
+#answer1 {
+    position: absolute;
+    width: 209px;
+    height: 181px;
+    left: 623px;
+    top: 481px;
+}
+
+#answer2 {
+    position: absolute;
+    width: 209px;
+    height: 166px;
+    left: 623px;
+    top: 496px;
+}
+
+#answer3 {
+    position: absolute;
+    width: 209px;
+    height: 166px;
+    left: 623px;
+    top: 496px;     
+}
+
+#answer4 {
+    position: absolute;
+    width: 209px;
+    height: 170px;
+    left: 623px;
+    top: 496px;
+}
