@@ -495,3 +495,185 @@
     color: #000000;
     cursor: pointer;
 }
+
+#roomdepartment {
+    position: absolute;
+    width: 1257px;
+    height: 675px;
+    left: 120px;
+    top: 344px;
+}
+
+#door {
+    position: absolute;
+    width: 169px;
+    height: 219px;
+    left: 681px;
+    top: 759px;
+}
+
+#star {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 227.24px;
+    top: 409px;
+}
+
+#triangle {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 388px;
+    top: 532.46px;
+}
+
+#heart {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 271.05px;
+    top: 606px;
+}
+
+#circle {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 455px;
+    top: 708px;
+}
+
+#raindrop {
+    position: absolute;
+    width: 49px;
+    height: 95px;
+    left: 312.49px;
+    top: 815px;
+}
+
+#moon {
+    position: absolute;
+    width: 82px;
+    height: 91px;
+    left: 929px;
+    top: 458.02px;
+}
+
+#square {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 1166px;
+    top: 515px;
+}
+
+#rhombus {
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 1060.63px;
+    top: 665px;    
+}
+
+#ellipse {
+    position: absolute;
+    width: 82px;
+    height: 113px;
+    left: 1170.57px;
+    top: 806px;    
+}
+
+#logo {
+    position: absolute;
+    width: 250px;
+    height: 237px;
+    left: 665px;
+    top: 251px;
+}
+
+#E {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 506px;
+    top: 471px;
+}
+
+#S {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 573px;
+    top: 471px;
+}
+
+#C {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 629px;
+    top: 471px;
+}
+
+#A {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 699px;
+    top: 471px;
+}
+
+#P {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 764px;
+    top: 471px;
+}
+
+#E2 {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 815px;
+    top: 471px;
+}
+
+#R {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 573px;
+    top: 567px;
+}
+
+#O {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 605px;
+    top: 567px;
+}
+
+#O2 {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 674px;
+    top: 567px;
+}
+
+#M {
+    position: absolute;
+    width: 219px;
+    height: 285px;
+    left: 753px;
+    top: 567px;
+}
+
+#departmentContainer {
+    background-color: #AD00FF;
+    width: 100%;
+    height: 100%;
+}
