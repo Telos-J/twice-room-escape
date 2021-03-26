@@ -1,0 +1,26 @@
+@keyframes rotate--7-3 {
+    0% {
+        transform: rotate(-7deg);
+    }
+    100% {
+        transform: rotate(3deg);
+    }
+}
+
+@keyframes rotate--1-7 {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+@keyframes rotate--1-9 {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(9deg);
+    }
+}
