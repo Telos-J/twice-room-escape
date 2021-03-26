@@ -174,7 +174,7 @@
     top: 64px;
 }
 
-#flowerpot {
+#flowerpotTw {
     position: absolute;
     width: 105px;
     height: 113px;
@@ -198,7 +198,7 @@
     top: 593px;
 }
 
-#bubble1 {
+#bubble1Tw {
     position: absolute;
     width: 16px;
     height: 17px;
@@ -206,7 +206,7 @@
     top: 645px;
 }
 
-#bubble2 {
+#bubble2Tw {
     position: absolute;
     width: 16px;
     height: 17px;
@@ -214,7 +214,7 @@
     top: 633px;
 }
 
-#bubble3 {
+#bubble3Tw {
     position: absolute;
     width: 16px;
     height: 17px;
@@ -222,7 +222,7 @@
     top: 636px;
 }
 
-#bubble4 {
+#bubble4Tw {
     position: absolute;
     width: 16px;
     height: 17px;
@@ -230,7 +230,7 @@
     top: 631px;
 }
 
-#bubble5 {
+#bubble5Tw {
     position: absolute;
     width: 16px;
     height: 17px;
@@ -238,7 +238,7 @@
     top: 647px;
 }
 
-#bubble6 {
+#bubble6Tw {
     position: absolute;
     width: 16px;
     height: 17px;
@@ -246,7 +246,7 @@
     top: 639px;
 }
 
-#bubble7 {
+#bubble7Tw {
     position: absolute;
     width: 16px;
     height: 16px;
@@ -254,7 +254,7 @@
     top: 648px;
 }
 
-#bubble8 {
+#bubble8Tw {
     position: absolute;
     width: 16px;
     height: 17px;
@@ -262,7 +262,7 @@
     top: 638px;
 }
 
-#bubble9 {
+#bubble9Tw {
     position: absolute;
     width: 16px;
     height: 17px;
@@ -322,17 +322,17 @@
 
 #question {
     position: absolute;
-    width: 197px;
-    height: 58px;
-    left: 655px;
+    width: 200px;
+    height: 1000px;
+    left: 20px;
     top: 427px;
-
+    
     font-family: Satisfy;
     font-style: normal;
     font-weight: normal;
     font-size: 23px;
     line-height: 33px;
-
+    
     color: #000000;
 }
 
@@ -496,6 +496,62 @@
     cursor: pointer;
 }
 
+#book {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#Cake {
+    position: absolute;
+    width: 130x;
+    height: 80px;
+    left: 870px;
+    top: 600px;
+}
+
+#Plate {
+    position: absolute;
+    width: 160px;
+    height: 57px;
+    left: 870px;
+    top: 620px;
+}
+
+#Apricot {
+    position: absolute;
+    width: 9px;
+    height: 10px;
+    left: 920px;
+    top: 630px;
+}
+
+#LaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#LaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#LaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
 #roomdepartment {
     position: absolute;
     width: 1257px;
@@ -510,6 +566,7 @@
     height: 219px;
     left: 681px;
     top: 759px;
+    cursor: pointer;
 }
 
 #star {
@@ -518,6 +575,13 @@
     height: 96px;
     left: 227.24px;
     top: 409px;
+
+    background: url(star.png);
+    transform: rotate(20.26deg);
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 48px 48px;
 }
 
 #triangle {
@@ -526,6 +590,13 @@
     height: 103px;
     left: 388px;
     top: 532.46px;
+
+    background: url(triangle.png);
+    transform: rotate(-22.53deg);
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 51.5px 51.5px;
 }
 
 #heart {
@@ -534,6 +605,13 @@
     height: 87px;
     left: 271.05px;
     top: 606px;
+
+    background: url(heart.png);
+    transform: rotate(25.94deg);
+    
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 43.5px 43.5px;
 }
 
 #circle {
@@ -542,6 +620,10 @@
     height: 92px;
     left: 455px;
     top: 708px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 46px;
 }
 
 #raindrop {
@@ -550,6 +632,13 @@
     height: 95px;
     left: 312.49px;
     top: 815px;
+
+    background: url(raindrop.png);
+    transform: rotate(22.59deg);
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 51.5px 51.5px;
 }
 
 #moon {
@@ -558,6 +647,13 @@
     height: 91px;
     left: 929px;
     top: 458.02px;
+
+    background: url(moon.png);
+    transform: rotate(-25.28deg);
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 41px 45.5px;
 }
 
 #square {
@@ -566,6 +662,10 @@
     height: 78px;
     left: 1166px;
     top: 515px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 39px 39px;
 }
 
 #rhombus {
@@ -573,7 +673,14 @@
     width: 82px;
     height: 82px;
     left: 1060.63px;
-    top: 665px;    
+    top: 665px;
+
+    background: url(rhombus.png);
+    transform: rotate(35.51deg); 
+
+    animation: rotate-10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 41px 41px;
 }
 
 #ellipse {
@@ -582,6 +689,13 @@
     height: 113px;
     left: 1170.57px;
     top: 806px;    
+
+    background: url(ellipse.png);
+    transform: rotate(17.28deg);
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 41px 56.5px;
 }
 
 #logo {
@@ -598,6 +712,19 @@
     height: 285px;
     left: 506px;
     top: 471px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
+}
+
+@keyframes rotate10deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(9deg);
+    }
 }
 
 #S {
@@ -606,6 +733,10 @@
     height: 285px;
     left: 573px;
     top: 471px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5x 142.5px;
 }
 
 #C {
@@ -614,6 +745,19 @@
     height: 285px;
     left: 629px;
     top: 471px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
+}
+
+@keyframes rotate10deg {
+    0% {
+        transform: rotate(9deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
 }
 
 #A {
@@ -622,6 +766,10 @@
     height: 285px;
     left: 699px;
     top: 471px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
 }
 
 #P {
@@ -630,6 +778,19 @@
     height: 285px;
     left: 764px;
     top: 471px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
+}
+
+@keyframes rotate10deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
 }
 
 #E2 {
@@ -638,6 +799,10 @@
     height: 285px;
     left: 815px;
     top: 471px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
 }
 
 #R {
@@ -646,6 +811,10 @@
     height: 285px;
     left: 573px;
     top: 567px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
 }
 
 #O {
@@ -654,6 +823,10 @@
     height: 285px;
     left: 605px;
     top: 567px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
 }
 
 #O2 {
@@ -662,6 +835,10 @@
     height: 285px;
     left: 674px;
     top: 567px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
 }
 
 #M {
@@ -670,10 +847,3828 @@
     height: 285px;
     left: 753px;
     top: 567px;
+
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 109.5px 142.5px;
 }
 
 #departmentContainer {
     background-color: #AD00FF;
     width: 100%;
     height: 100%;
+}
+
+#nayeonRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 78px;
+    top: 184px;
+}
+
+#jeongyeonRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 359px;
+    top: 184px;
+}
+
+#momoRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 659px;
+    top: 184px;
+}
+
+#sanaRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 979px;
+    top: 184px;
+}
+
+#jihyoRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 1265px;
+    top: 184px;
+}
+
+#minaRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 78px;
+    top: 554px;
+}
+
+#dahyunRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 359px;
+    top: 554px;
+}
+
+#chaeyoungRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 659px;
+    top: 554px;
+}
+
+#tzuyuRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 979px;
+    top: 554px;
+}
+
+#twiceRoom {
+    position: absolute;
+    width: 223px;
+    height: 189px;
+    left: 1264px;
+    top: 554px;
+}
+
+#roomContainer {
+    background-color: #FFCEB2;
+    width: 100%;
+    height: 100%;
+}
+
+#nayeonRoom1 {
+    position: absolute;
+    width: 1834px;
+    height: 1096px;
+    left: -127px;
+    top: -52px;
+}    
+
+#bluestar-flower {
+    position: absolute;
+    width: 78px;
+    height: 82px;
+    left: 371px;
+    top: 505px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#bluestar-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 381px;
+    top: 561px;    
+}
+
+#bluestar-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 368px;
+    top: 529px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#bluestar-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 384px;
+    top: 541px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#bluestar-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 368px;
+    top: 619px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#bluestar-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 395px;
+    top: 602px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#flowerpotNy {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 370px;
+    top: 678px;
+}
+
+#nayeonTable {
+    position: absolute;
+    width: 600px;
+    height: 305px;
+    left: 700px;
+    top: 502px;
+}
+
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#nayeonLetter {
+    position: absolute;
+    width: 353px;
+    height: 293px;
+    left: 578px;
+    top: 330px;
+}
+
+#nayeonLightstick {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 842px;
+    top: 548px;
+}
+
+#questionNy {
+    position: absolute;
+    width: 198px;
+    height: 45px;
+    left: 700px;
+    top: 375px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#nayeonChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 404px;
+}
+
+#nayeonChoice1-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 425px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#nayeonChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 442.23px;
+}
+
+#nayeonChoice2-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 465px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#nayeonChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 479.75px;
+}
+
+#nayeonChoice3-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 502.5px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#nayeonChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 520px;  
+}
+
+#nayeonChoice4-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 540px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;    
+}
+#bubble1Ny {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1040px;
+    top: 590px;
+}
+
+#bubble2Ny {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 578px;
+}
+
+#bubble3Ny {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 581px;
+}
+
+#bubble4Ny {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 576px;
+}
+
+#bubble5Ny {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 592px;
+}
+
+#bubble6Ny {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 584px;
+}
+
+#bubble7Ny {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 593px;
+}
+
+#bubble8Ny {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 583px;
+}
+
+#bubble9Ny {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 574px;
+}
+
+#bubble-route {
+    position: absolute;
+    width: 265px;
+    height: 195px;
+    left: 769px;
+    top: 350px;
+}
+
+#firework {
+    display: none;
+    position: absolute;
+    width: 614px;
+    height: 415px;
+    left: 456px;
+    top: 299px;
+}
+
+#nayeonDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1010px;
+    top: 474px;
+}
+
+#nayeonLaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#nayeonLaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#nayeonLaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
+#nayeonPicture {
+    position: absolute;
+    width: 424px;
+    height: 209px;
+    left: 558px;
+    top: 63px;
+}
+
+#nayeonBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#nayeonCake {
+    position: absolute;
+    width: 130x;
+    height: 80px;
+    left: 850px;
+    top: 542px;
+}
+
+#plateNy {
+    position: absolute;
+    width: 160px;
+    height: 57px;
+    left: 845px;
+    top: 562px;
+}
+
+#nayeonStar {
+    position: absolute;
+    width: 9px;
+    height: 10px;
+    left: 905px;
+    top: 568px;
+}
+
+#jeongyeonRoom1 {
+    position: absolute;
+    width: 1832px;
+    height: 1142px;
+    left: -128px;
+    top: -92px;
+}
+
+#jeongyeon-flower {
+    position: absolute;
+    width: 72px;
+    height: 47px;
+    left: 381px;
+    top: 520px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#jeongyeon-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 381px;
+    top: 561px;    
+}
+
+#jeongyeon-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 368px;
+    top: 529px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#jeongyeon-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 384px;
+    top: 541px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#jeongyeon-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 368px;
+    top: 619px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#jeongyeon-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 395px;
+    top: 602px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#flowerpotJy {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 370px;
+    top: 678px;
+}
+
+#jeongyeonTable {
+    position: absolute;
+    width: 495px;
+    height: 305px;
+    left: 807px;
+    top: 502px;
+}
+
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#jeongyeonLetter {
+    position: absolute;
+    width: 353px;
+    height: 293px;
+    left: 578px;
+    top: 330px;
+}
+
+#jeongyeonLightstick {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 842px;
+    top: 548px;
+}
+
+#questionJy {
+    position: absolute;
+    width: 198px;
+    height: 45px;
+    left: 700px;
+    top: 375px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#jeongyeonChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 404px;
+}
+
+#jeongyeonChoice1-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 425px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#jeongyeonChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 442.23px;
+}
+
+#jeongyeonChoice2-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 465px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#jeongyeonChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 479.75px;
+}
+
+#jeongyeonChoice3-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 502.5px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#jeongyeonChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 520px;  
+}
+
+#jeongyeonChoice4-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 540px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;    
+}
+#bubble1Jy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1040px;
+    top: 590px;
+}
+
+#bubble2Jy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 578px;
+}
+
+#bubble3Jy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 581px;
+}
+
+#bubble4Jy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 576px;
+}
+
+#bubble5Jy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 592px;
+}
+
+#bubble6Jy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 584px;
+}
+
+#bubble7Jy {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 593px;
+}
+
+#bubble8Jy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 583px;
+}
+
+#bubble9Jy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 574px;
+}
+
+#bubble-route {
+    position: absolute;
+    width: 265px;
+    height: 195px;
+    left: 769px;
+    top: 350px;
+}
+
+#firework {
+    display: none;
+    position: absolute;
+    width: 614px;
+    height: 415px;
+    left: 456px;
+    top: 299px;
+}
+
+#jeongyeonDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1010px;
+    top: 474px;
+}
+
+#jeongyeonLaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#jeongyeonLaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#jeongyeonLaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
+#jeongyeonPicture {
+    position: absolute;
+    width: 424px;
+    height: 209px;
+    left: 558px;
+    top: 63px;
+}
+
+#jeongyeonBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#jeongyeonCake {
+    position: absolute;
+    width: 130x;
+    height: 80px;
+    left: 870px;
+    top: 542px;
+}
+
+#plateJy {
+    position: absolute;
+    width: 160px;
+    height: 57px;
+    left: 865px;
+    top: 562px;
+}
+
+#melon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 920px;
+    top: 564px;
+}
+
+#momoRoom1 {
+    position: absolute;
+    width: 1834px;
+    height: 1096px;
+    left: -127px;
+    top: -52px;
+}
+
+#hibiscus-flower {
+    position: absolute;
+    width: 91px;
+    height: 75px;
+    left: 379px;
+    top: 505px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#hibiscus-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 381px;
+    top: 561px;    
+}
+
+#hibiscus-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 368px;
+    top: 529px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#hibiscus-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 384px;
+    top: 541px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#hibiscus-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 368px;
+    top: 619px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#hibiscus-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 395px;
+    top: 602px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#flowerpotMm {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 370px;
+    top: 678px;
+}
+
+#momoTable {
+    position: absolute;
+    width: 495px;
+    height: 305px;
+    left: 807px;
+    top: 502px;
+}
+
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#momoLetter {
+    position: absolute;
+    width: 353px;
+    height: 293px;
+    left: 578px;
+    top: 330px;
+}
+
+#momoLightstick {
+    position: absolute;
+    width: 50px;
+    height: 66px;
+    left: 849px;
+    top: 535px;
+}
+
+#questionMm {
+    position: absolute;
+    width:120px;
+    height: 40px;
+    left: 710px;
+    top: 370px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #000000;
+    }
+
+#momoChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 404px;
+}
+
+#momoChoice1-text {
+    position: absolute;
+    width: 149px;
+    height: 11px;
+    left: 751px;
+    top: 432px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#momoChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.62px;
+    top: 442px;    
+}
+
+#momoChoice2-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 465px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#momoChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 479.75px;
+}
+
+#momoChoice3-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 502.5px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#momoChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 520px;  
+}
+
+#momoChoice4-text {
+    position: absolute;
+    width: 115px;
+    height: 11px;
+    left: 736.47px;
+    top: 559px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;    
+}
+#bubble1Mm {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1040px;
+    top: 590px;
+}
+
+#bubble2Mm {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 578px;
+}
+
+#bubble3Mm {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 581px;
+}
+
+#bubble4Mm {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 576px;
+}
+
+#bubble5Mm {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 592px;
+}
+
+#bubble6Mm {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 584px;
+}
+
+#bubble7Mm {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 593px;
+}
+
+#bubble8Mm {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 583px;
+}
+
+#bubble9Mm {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 574px;
+}
+
+#bubble-route {
+    position: absolute;
+    width: 265px;
+    height: 195px;
+    left: 769px;
+    top: 350px;
+}
+
+#firework {
+    display: none;
+    position: absolute;
+    width: 614px;
+    height: 415px;
+    left: 456px;
+    top: 299px;
+}
+
+#momoDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1010px;
+    top: 474px;
+}
+
+#momoLaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#momoLaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#momoLaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
+#momoPicture {
+    position: absolute;
+    width: 424px;
+    height: 209px;
+    left: 558px;
+    top: 63px;
+}
+
+#momoBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#momoCake {
+    position: absolute;
+    width: 130x;
+    height: 80px;
+    left: 870px;
+    top: 542px;
+}
+
+#plateMm {
+    position: absolute;
+    width: 160px;
+    height: 57px;
+    left: 865px;
+    top: 562px;
+}
+
+#peach {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 920px;
+    top: 570px;
+}
+
+#sanaRoom1 {
+    position: absolute;
+    width: 1834px;
+    height: 1096px;
+    left: -127px;
+    top: -52px;
+}
+
+#sana-flower {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 389px;
+    top: 520px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#sana-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 381px;
+    top: 561px;    
+}
+
+#sana-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 368px;
+    top: 529px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#sana-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 384px;
+    top: 541px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#sana-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 368px;
+    top: 619px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#sana-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 395px;
+    top: 602px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#flowerpotSn {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 370px;
+    top: 678px;
+}
+
+#sanaTable {
+    position: absolute;
+    width: 495px;
+    height: 305px;
+    left: 807px;
+    top: 525px;
+}
+
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#sanaLetter {
+    position: absolute;
+    width: 353px;
+    height: 293px;
+    left: 578px;
+    top: 330px;
+}
+
+#sanaLightstick {
+    position: absolute;
+    width: 22px;
+    height: 21px;
+    left: 860px;
+    top: 555px;
+}
+
+#questionSn {
+    position: absolute;
+    width: 198px;
+    height: 45px;
+    left: 700px;
+    top: 375px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#sanaChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 404px;
+}
+
+#sanaChoice1-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 425px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#sanaChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 442.23px;
+}
+
+#sanaChoice2-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 465px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#sanaChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 479.75px;
+}
+
+#sanaChoice3-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 502.5px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#sanaChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 520px;  
+}
+
+#sanaChoice4-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 540px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;    
+}
+
+#sanaDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1010px;
+    top: 474px;
+}
+
+#bubble1Sn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1040px;
+    top: 590px;
+}
+
+#bubble2Sn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 578px;
+}
+
+#bubble3Sn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 581px;
+}
+
+#bubble4Sn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 576px;
+}
+
+#bubble5Sn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 592px;
+}
+
+#bubble6Sn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 584px;
+}
+
+#bubble7Sn {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 593px;
+}
+
+#bubble8Sn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 583px;
+}
+
+#bubble9Sn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 574px;
+}
+
+#bubble-route {
+    position: absolute;
+    width: 265px;
+    height: 195px;
+    left: 769px;
+    top: 350px;
+}
+
+#firework {
+    display: none;
+    position: absolute;
+    width: 614px;
+    height: 415px;
+    left: 456px;
+    top: 299px;
+}
+
+#sanaLaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#sanaLaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#sanaLaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
+#sanaPicture {
+    position: absolute;
+    width: 424px;
+    height: 209px;
+    left: 558px;
+    top: 63px;
+}
+
+#sanaBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#sanaCake {
+    position: absolute;
+    width: 130x;
+    height: 80px;
+    left: 850px;
+    top: 542px;
+}
+
+#plateSn {
+    position: absolute;
+    width: 160px;
+    height: 57px;
+    left: 845px;
+    top: 562px;
+}
+
+#grape {
+    position: absolute;
+    width: 9px;
+    height: 10px;
+    left: 905px;
+    top: 568px;
+}
+
+#jihyoRoom1 {
+    position: absolute;
+    width: 1776px;
+    height: 1070px;
+    left: -118px;
+    top: -48px;
+}
+
+#sunflower {
+    position: absolute;
+    width: 98px;
+    height: 87px;
+    left: 336px;
+    top: 450px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#sunflower-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 349px;
+    top: 520px;
+}
+
+#sunflower-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 336px;
+    top: 488px;
+
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#sunflower-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 352px;
+    top: 500px;
+
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#sunflower-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 336px;
+    top: 578px;   
+
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#sunflower-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 363px;
+    top: 561px;
+
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#flowerpotJh {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 338px;
+    top: 637px;
+}
+
+#jihyoTable {
+    position: absolute;
+    width: 500px;
+    height: 273px;
+    left: 800px;
+    top: 500px;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#jihyoLetter {
+    position: absolute;
+    width: 351px;
+    height: 275px;
+    left: 606px;
+    top: 344px;
+}
+
+#jihyoLightstick {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: 891px;
+    top: 555px;
+}
+
+#questionJh {
+    position: absolute;
+    width: 189.9px;
+    height: 8px;
+    left: 710px;
+    top: 380px;
+    
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    
+    color: #000000;
+}
+
+#jihyoChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 43px;
+    left: 689px;
+    top: 411px;
+}
+
+#jihyoChoice1-text {
+    position: absolute;
+    width: 149px;
+    height: 14px;
+    left: 750px;
+    top: 421px;
+    
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #000000;
+    cursor: pointer;   
+}
+
+#jihyoChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 43px;
+    left: 690.57px;
+    top: 450px;    
+}
+
+#jihyoChoice2-text {
+    position: absolute;
+    width: 115px;
+    height: 9px;
+    left: 771px;
+    top: 464px;
+    
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #000000;    
+    cursor: pointer;   
+}
+
+#jihyoChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 43px;
+    left: 692.9px;
+    top: 488px;    
+}
+
+#jihyoChoice3-text {
+    position: absolute;
+    width: 115px;
+    height: 17.9px;
+    left: 746.79px;
+    top: 498px;
+    
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #000000;
+    cursor: pointer;   
+}
+
+#jihyoChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 43px;
+    left: 690.45px;
+    top: 526px;    
+}
+
+#jihyoChoice4-text {
+    position: absolute;
+    width: 115px;
+    height: 11px;
+    left: 750px;
+    top: 538px;
+    
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    
+    color: #000000;    
+    cursor: pointer;    
+}
+
+#jihyoDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1010px;
+    top: 474px;
+}
+
+#bubble1Jh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1040px;
+    top: 590px;
+}
+
+#bubble2Jh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 578px;
+}
+
+#bubble3Jh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 581px;
+}
+
+#bubble4Jh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 576px;
+}
+
+#bubble5Jh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 592px;
+}
+
+#bubble6Jh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 584px;
+}
+
+#bubble7Jh {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 593px;
+}
+
+#bubble8Jh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 583px;
+}
+
+#bubble9Jh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 574px;
+}
+
+#jihyoLaburiBody {
+    position: absolute;
+    width: 171px;
+    height: 265px;
+    left: 723px;
+    top: 558px;
+}
+
+#jihyoLaburiRightArm {
+    position: absolute;
+    width: 74px;
+    height: 112px;
+    left: 723px;
+    top: 653px;
+}
+
+#jihyoLaburiLeftArm {
+    position: absolute;
+    width: 94px;
+    height: 108px;
+    left: 808px;
+    top: 653px;
+}
+
+#jihyo {
+    position: absolute;
+    width: 424px;
+    height: 250px;
+    left: 558px;
+    top: 44px;
+}
+
+#jihyoBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#jihyoCake {
+    position: absolute;
+    width: 130x;
+    height: 80px;
+    left: 850px;
+    top: 542px;
+}
+
+#plateJh {
+    position: absolute;
+    width: 160px;
+    height: 57px;
+    left: 845px;
+    top: 562px;
+}
+
+#banana {
+    position: absolute;
+    width: 9px;
+    height: 10px;
+    left: 905px;
+    top: 568px;
+}
+
+#minaRoom1 {
+    position: absolute;
+    width: 1834px;
+    height: 1096px;
+    left: -127px;
+    top: -52px;
+}
+
+#mina-flower {
+    position: absolute;
+    width: 63px;
+    height: 64px;
+    left: 390px;
+    top: 510px;    
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#mina-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 381px;
+    top: 561px;    
+}
+
+#mina-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 368px;
+    top: 529px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#mina-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 384px;
+    top: 541px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#mina-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 368px;
+    top: 619px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#mina-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 395px;
+    top: 602px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#flowerpotMn {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 370px;
+    top: 678px;
+}
+
+#minaTable {
+    position: absolute;
+    width: 451px;
+    height: 341px;
+    left: 867px;
+    top: 403px;    
+}
+
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#minaLetter {
+    position: absolute;
+    width: 353px;
+    height: 293px;
+    left: 578px;
+    top: 330px;
+}
+
+#minaLightstick {
+    position: absolute;
+    width: 44px;
+    height: 45px;
+    left: 842px;
+    top: 548px;
+}
+
+#questionMn {
+    position: absolute;
+    width: 198px;
+    height: 45px;
+    left: 680px;
+    top: 380px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#minaChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 404px;
+}
+
+#minaChoice1-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 425px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#minaChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 442.23px;
+}
+
+#minaChoice2-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 465px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#minaChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 479.75px;
+}
+
+#minaChoice3-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 502.5px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#minaChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 520px;  
+}
+
+#minaChoice4-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 540px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;    
+}
+#minaDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1100px;
+    top: 474px;
+}
+
+#bubble1Mn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1130px;
+    top: 590px;
+}
+
+#bubble2Mn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1127px;
+    top: 578px;
+}
+
+#bubble3Mn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1143px;
+    top: 581px;
+}
+
+#bubble4Mn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1148px;
+    top: 576px;
+}
+
+#bubble5Mn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1148px;
+    top: 592px;
+}
+
+#bubble6Mn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1161px;
+    top: 584px;
+}
+
+#bubble7Mn {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1167px;
+    top: 593px;
+}
+
+#bubble8Mn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1172px;
+    top: 583px;
+}
+
+#bubble9Mn {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1179px;
+    top: 574px;
+}
+
+#minaLaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#minaLaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#minaLaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
+#mina {
+    position: absolute;
+    width: 424px;
+    height: 250px;
+    left: 558px;
+    top: 44px;
+}
+
+#minaBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#minaCake {
+    position: absolute;
+    width: 130x;
+    height: 80px;
+    left: 950px;
+    top: 542px;
+}
+
+#plateMn {
+    position: absolute;
+    width: 160px;
+    height: 57px;
+    left: 945px;
+    top: 562px;
+}
+
+#minaMoon {
+    position: absolute;
+    width: 9px;
+    height: 10px;
+    left: 1000px;
+    top: 568px;
+}
+
+#dahyunRoom1 {
+    position: absolute;
+    width: 1834px;
+    height: 1096px;
+    left: -127px;
+    top: -52px;
+}
+
+#lily-flower {
+    position: absolute;
+    width: 63px;
+    height: 50px;
+    left: 355px;
+    top: 535px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#lily-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 343px;
+    top: 565px;
+}
+
+#lily-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 330px;
+    top: 533px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#lily-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 346px;
+    top: 545px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#lily-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 330px;
+    top: 623px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#lily-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 357px;
+    top: 606px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#flowerpotDh {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 340px;
+    top: 685px;
+}
+
+#dahyunTable {
+    position: absolute;
+    width: 495px;
+    height: 305px;
+    left: 807px;
+    top: 502px;
+}
+
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#dahyunLetter {
+    position: absolute;
+    width: 353px;
+    height: 293px;
+    left: 578px;
+    top: 330px;
+}
+
+#dahyunLightstick {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 853px;
+    top: 552px;
+}
+
+#questionDh {
+    position: absolute;
+    width: 198px;
+    height: 45px;
+    left: 700px;
+    top: 375px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#dahyunChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 404px;
+}
+
+#dahyunChoice1-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 425px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#dahyunChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 442.23px;
+}
+
+#dahyunChoice2-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 465px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#dahyunChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 479.75px;
+}
+
+#dahyunChoice3-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 502.5px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#dahyunChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 520px;  
+}
+
+#dahyunChoice4-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 540px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;    
+}
+#bubble1Dh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1040px;
+    top: 590px;
+}
+
+#bubble2Dh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 578px;
+}
+
+#bubble3Dh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 581px;
+}
+
+#bubble4Dh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 576px;
+}
+
+#bubble5Dh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 592px;
+}
+
+#bubble6Dh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 584px;
+}
+
+#bubble7Dh {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 593px;
+}
+
+#bubble8Dh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 583px;
+}
+
+#bubble9Dh {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 574px;
+}
+
+#bubble-route {
+    position: absolute;
+    width: 265px;
+    height: 195px;
+    left: 769px;
+    top: 350px;
+}
+
+#firework {
+    display: none;
+    position: absolute;
+    width: 614px;
+    height: 415px;
+    left: 456px;
+    top: 299px;
+}
+
+#dahyunDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1010px;
+    top: 474px;
+}
+
+#dahyunLaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#dahyunLaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#dahyunLaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
+#dahyunPicture {
+    position: absolute;
+    width: 424px;
+    height: 209px;
+    left: 558px;
+    top: 63px;
+}
+
+#dahyunBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#chaeyoungRoom1 {
+    position: absolute;
+    width: 1851px;
+    height: 1155px;
+    left: -149px;
+    top: -88px;    
+}
+
+#flowerpotCy {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 305px;
+    top: 643px;
+}
+
+#tulip-flower {
+    position: absolute;
+    width: 42px;
+    height: 56px;
+    left: 337px;
+    top: 483px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#tulip-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 316px;
+    top: 526px;
+}
+
+#tulip-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 303px;
+    top: 494px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#tulip-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 319px;
+    top: 506px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#tulip-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 303px;
+    top: 584px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#tulip-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 330px;
+    top: 567px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#chaeyoungTable {
+    position: absolute;
+    width: 495px;
+    height: 305px;
+    left: 807px;
+    top: 502px;
+}
+
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#chaeyoungLetter {
+    position: absolute;
+    width: 353px;
+    height: 293px;
+    left: 578px;
+    top: 330px;
+}
+
+#chaeyoungLightstick {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 853px;
+    top: 552px;
+}
+
+#questionCy {
+    position: absolute;
+    width: 198px;
+    height: 45px;
+    left: 700px;
+    top: 375px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#chaeyoungChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 404px;
+}
+
+#chaeyoungChoice1-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 425px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#chaeyoungChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 442.23px;
+}
+
+#chaeyoungChoice2-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 465px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#chaeyoungChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 479.75px;
+}
+
+#chaeyoungChoice3-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 502.5px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#chaeyoungChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 520px;  
+}
+
+#chaeyoungChoice4-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 540px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;    
+}
+#bubble1Cy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1040px;
+    top: 590px;
+}
+
+#bubble2Cy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 578px;
+}
+
+#bubble3Cy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 581px;
+}
+
+#bubble4Cy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 576px;
+}
+
+#bubble5Cy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 592px;
+}
+
+#bubble6Cy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 584px;
+}
+
+#bubble7Cy {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 593px;
+}
+
+#bubble8Cy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 583px;
+}
+
+#bubble9Cy {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 574px;
+}
+
+#bubble-route {
+    position: absolute;
+    width: 265px;
+    height: 195px;
+    left: 769px;
+    top: 350px;
+}
+
+#firework {
+    display: none;
+    position: absolute;
+    width: 614px;
+    height: 415px;
+    left: 456px;
+    top: 299px;
+}
+
+#chaeyoungDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1010px;
+    top: 474px;
+}
+
+#chaeyoungLaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#chaeyoungLaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#chaeyoungLaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
+#chaeyoung {
+    position: absolute;
+    width: 424px;
+    height: 250px;
+    left: 558px;
+    top: 44px;
+}
+
+#chaeyoungBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#tzuyuRoom1 {
+    position: absolute;
+    width: 1834px;
+    height: 1096px;
+    left: -127px;
+    top: -52px;
+}
+
+#tzuyu-flower {
+    position: absolute;
+    width: 66px;
+    height: 83px;
+    left: 394px;
+    top: 485px;
+    animation: rotate10deg 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#tzuyu-stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 381px;
+    top: 561px;    
+}
+
+#tzuyu-leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 368px;
+    top: 529px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#tzuyu-leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 384px;
+    top: 541px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: rotate(-1deg);
+    }
+}
+
+#tzuyu-leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 368px;
+    top: 619px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#tzuyu-leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 395px;
+    top: 602px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}
+
+@keyframes rotate8deg {
+    0% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    }
+}
+
+#flowerpotTy {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 370px;
+    top: 678px;
+}
+
+#tzuyuTable {
+    position: absolute;
+    width: 443px;
+    height: 198px;
+    left: 881px;
+    top: 544px;    
+}
+
+#quiz {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#tzuyuLetter {
+    position: absolute;
+    width: 353px;
+    height: 293px;
+    left: 578px;
+    top: 330px;
+}
+
+#tzuyuLightstick {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 853px;
+    top: 552px;
+}
+
+#question {
+    position: absolute;
+    width: 198px;
+    height: 45px;
+    left: 700px;
+    top: 375px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+#tzuyuChoice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 404px;
+}
+
+#tzuyuChoice1-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 666px;
+    top: 425px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#tzuyuChoice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 442.23px;
+}
+
+#tzuyuChoice2-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 667.55px;
+    top: 465px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#tzuyuChoice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 479.75px;
+}
+
+#tzuyuChoice3-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 668.24px;
+    top: 502.5px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+#tzuyuChoice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 520px;  
+}
+
+#tzuyuChoice4-text {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 665.51px;
+    top: 540px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;    
+}
+#bubble1Ty {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1040px;
+    top: 590px;
+}
+
+#bubble2Ty {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1037px;
+    top: 578px;
+}
+
+#bubble3Ty {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1053px;
+    top: 581px;
+}
+
+#bubble4Ty {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 576px;
+}
+
+#bubble5Ty {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1058px;
+    top: 592px;
+}
+
+#bubble6Ty {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1071px;
+    top: 584px;
+}
+
+#bubble7Ty {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 1077px;
+    top: 593px;
+}
+
+#bubble8Ty {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1082px;
+    top: 583px;
+}
+
+#bubble9Ty {
+    position: absolute;
+    width: 16px;
+    height: 17px;
+    left: 1089px;
+    top: 574px;
+}
+
+#bubble-route {
+    position: absolute;
+    width: 265px;
+    height: 195px;
+    left: 769px;
+    top: 350px;
+}
+
+#firework {
+    display: none;
+    position: absolute;
+    width: 614px;
+    height: 415px;
+    left: 456px;
+    top: 299px;
+}
+
+#tzuyuDrink {
+    position: absolute;
+    width: 115px;
+    height: 145px;
+    left: 1010px;
+    top: 474px;
+}
+
+#tzuyuLaburiBody {
+    position: absolute;
+    width: 195px;
+    height: 307px;
+    left: 593.43px;
+    top: 574px;
+}
+
+#tzuyuLaburiRightArm {
+    position: absolute;
+    width: 84px;
+    height: 130px;
+    left: 606.36px;
+    top: 664.28px;
+}
+
+#tzuyuLaburiLeftArm {
+    position: absolute;
+    width: 107px;
+    height: 124px;
+    left: 686.49px;
+    top: 677.64px;
+}
+
+#tzuyuPicture {
+    position: absolute;
+    width: 424px;
+    height: 209px;
+    left: 558px;
+    top: 63px;
+}
+
+#tzuyuBook {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
 }
