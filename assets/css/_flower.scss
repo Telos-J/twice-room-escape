@@ -1,0 +1,71 @@
+#flowerpot {
+    position: absolute;
+    width: 105px;
+    height: 113px;
+    left: 370px;
+    top: 678px;
+}
+
+/* #rose-flower::after {
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    content: '';
+    background-color: #f0f;
+    border-radius: 50%;
+    transform: translate(46px, 62px);
+    z-index: 10;
+} */
+
+#stem {
+    position: absolute;
+    width: 94px;
+    height: 153px;
+    left: 381px;
+    top: 561px;    
+}
+
+#leaf1 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 368px;
+    top: 529px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 30px 118px;
+}
+
+#leaf2 {
+    position: absolute;
+    width: 94px;
+    height: 122px;
+    left: 384px;
+    top: 541px;
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 118px;
+}
+
+#leaf3 {
+    position: absolute;
+    width: 94px;
+    height: 56px;
+    left: 368px;
+    top: 619px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 47px 54px;
+}
+
+#leaf4 {
+    position: absolute;
+    width: 83px;
+    height: 76px;
+    left: 395px;
+    top: 602px;    
+    animation: rotate8deg 1.5s infinite;
+    animation-direction: alternate;
+    transform-origin: 42px 74px;
+}

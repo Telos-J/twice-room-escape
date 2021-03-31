@@ -1,25 +1,25 @@
 #cup {
   position: absolute;
-  width: 114px;
-  height: 124px;
+  width: 115px;
+  height: 145px;
   left: 1010px;
-  top: 550px;
+  top: 474px;
 }
 
 #twicedrink {
   position: absolute;
   width: 94px;
-  height: 74px;
+  height: 90px;
   left: 1020px;
-  top: 593px;
+  top: 520px;
 }
 
 #straw {
   position: absolute;
   width: 21px;
   height: 85px;
-  left: 1023px;
-  top: 525px;
+  left: 1030px;
+  top: 451px;
 }
 
 #bubble1 {
@@ -108,6 +108,30 @@
   height: 145px;
   left: 1010px;
   top: 474px;
+}
+
+#decoration {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 905px;
+  top: 564px;
+}
+
+#membersCake {
+  position: absolute;
+  width: 130px;
+  height: 76px;
+  left: 860px;
+  top: 542px;
+}
+
+#plate {
+  position: absolute;
+  width: 160px;
+  height: 57px;
+  left: 845px;
+  top: 562px;
 }
 
 #E {
@@ -331,27 +355,12 @@
   }
 }
 
-#container {
-  -webkit-transform: scale(0.6) translate(-550px, -350px);
-          transform: scale(0.6) translate(-550px, -350px);
-  height: 1000px;
-  width: 1500px;
-  overflow: hidden;
+#flowerpot {
   position: absolute;
-}
-
-#rose-flower {
-  position: absolute;
-  width: 78px;
-  height: 73px;
-  left: 371px;
-  top: 505px;
-  -webkit-animation: rotate10deg 2.0s infinite;
-          animation: rotate10deg 2.0s infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-transform-origin: 46px 62px;
-          transform-origin: 46px 62px;
+  width: 105px;
+  height: 113px;
+  left: 370px;
+  top: 678px;
 }
 
 /* #rose-flower::after {
@@ -365,7 +374,7 @@
     transform: translate(46px, 62px);
     z-index: 10;
 } */
-#rose-stem {
+#stem {
   position: absolute;
   width: 94px;
   height: 153px;
@@ -373,7 +382,7 @@
   top: 561px;
 }
 
-#rose-leaf1 {
+#leaf1 {
   position: absolute;
   width: 94px;
   height: 122px;
@@ -387,7 +396,7 @@
           transform-origin: 30px 118px;
 }
 
-#rose-leaf2 {
+#leaf2 {
   position: absolute;
   width: 94px;
   height: 122px;
@@ -401,7 +410,7 @@
           transform-origin: 46px 118px;
 }
 
-#rose-leaf3 {
+#leaf3 {
   position: absolute;
   width: 94px;
   height: 56px;
@@ -415,7 +424,7 @@
           transform-origin: 47px 54px;
 }
 
-#rose-leaf4 {
+#leaf4 {
   position: absolute;
   width: 83px;
   height: 76px;
@@ -429,12 +438,13 @@
           transform-origin: 42px 74px;
 }
 
-#table {
+#container {
+  -webkit-transform: scale(0.6) translate(-550px, -350px);
+          transform: scale(0.6) translate(-550px, -350px);
+  height: 1000px;
+  width: 1500px;
+  overflow: hidden;
   position: absolute;
-  width: 380px;
-  height: 221px;
-  left: 796px;
-  top: 600px;
 }
 
 #floor {
@@ -477,14 +487,6 @@
   top: 64px;
 }
 
-#flowerpotTw {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 370px;
-  top: 678px;
-}
-
 #firework {
   display: none;
   position: absolute;
@@ -495,6 +497,8 @@
 }
 
 #quiz {
+  position: absolute;
+  top: -10px;
   opacity: 0;
   -webkit-transition: opacity 1s;
   transition: opacity 1s;
@@ -732,6 +736,28 @@
   height: 124px;
   left: 686.49px;
   top: 677.64px;
+}
+
+#table {
+  position: absolute;
+  width: 600px;
+  height: 305px;
+  left: 700px;
+  top: 502px;
+}
+
+#rose-flower {
+  position: absolute;
+  width: 78px;
+  height: 82px;
+  left: 380px;
+  top: 509px;
+  -webkit-animation: rotate10deg 2.0s infinite;
+          animation: rotate10deg 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #roomdepartment {
@@ -1010,8 +1036,8 @@
   position: absolute;
   width: 78px;
   height: 82px;
-  left: 371px;
-  top: 505px;
+  left: 380px;
+  top: 509px;
   -webkit-animation: rotate10deg 2.0s infinite;
           animation: rotate10deg 2.0s infinite;
   -webkit-animation-direction: alternate;
@@ -1084,14 +1110,6 @@
           transform-origin: 42px 74px;
 }
 
-#flowerpotNy {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 370px;
-  top: 678px;
-}
-
 #nayeonTable {
   position: absolute;
   width: 600px;
@@ -1126,7 +1144,7 @@
   top: 548px;
 }
 
-#questionNy {
+#question {
   position: absolute;
   width: 198px;
   height: 45px;
@@ -1301,14 +1319,6 @@
   top: 542px;
 }
 
-#plateNy {
-  position: absolute;
-  width: 160px;
-  height: 57px;
-  left: 845px;
-  top: 562px;
-}
-
 #nayeonStar {
   position: absolute;
   width: 9px;
@@ -1403,14 +1413,6 @@
           transform-origin: 42px 74px;
 }
 
-#flowerpotJy {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 370px;
-  top: 678px;
-}
-
 #jeongyeonTable {
   position: absolute;
   width: 495px;
@@ -1445,7 +1447,7 @@
   top: 548px;
 }
 
-#questionJy {
+#question {
   position: absolute;
   width: 198px;
   height: 45px;
@@ -1612,14 +1614,6 @@
   top: 542px;
 }
 
-#plateJy {
-  position: absolute;
-  width: 160px;
-  height: 57px;
-  left: 865px;
-  top: 562px;
-}
-
 #melon {
   position: absolute;
   width: 20px;
@@ -1714,14 +1708,6 @@
           transform-origin: 42px 74px;
 }
 
-#flowerpotMm {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 370px;
-  top: 678px;
-}
-
 #momoTable {
   position: absolute;
   width: 495px;
@@ -1756,7 +1742,7 @@
   top: 535px;
 }
 
-#questionMm {
+#question {
   position: absolute;
   width: 120px;
   height: 40px;
@@ -1865,7 +1851,7 @@
   cursor: pointer;
 }
 
-#bubble1Mm {
+#bubble1 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -1873,7 +1859,7 @@
   top: 590px;
 }
 
-#bubble2Mm {
+#bubble2 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -1881,7 +1867,7 @@
   top: 578px;
 }
 
-#bubble3Mm {
+#bubble3 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -1889,7 +1875,7 @@
   top: 581px;
 }
 
-#bubble4Mm {
+#bubble4 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -1897,7 +1883,7 @@
   top: 576px;
 }
 
-#bubble5Mm {
+#bubble5 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -1905,7 +1891,7 @@
   top: 592px;
 }
 
-#bubble6Mm {
+#bubble6 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -1913,7 +1899,7 @@
   top: 584px;
 }
 
-#bubble7Mm {
+#bubble7 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -1921,7 +1907,7 @@
   top: 593px;
 }
 
-#bubble8Mm {
+#bubble8 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -1929,7 +1915,7 @@
   top: 583px;
 }
 
-#bubble9Mm {
+#bubble9 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2008,14 +1994,6 @@
   height: 80px;
   left: 870px;
   top: 542px;
-}
-
-#plateMm {
-  position: absolute;
-  width: 160px;
-  height: 57px;
-  left: 865px;
-  top: 562px;
 }
 
 #peach {
@@ -2112,14 +2090,6 @@
           transform-origin: 42px 74px;
 }
 
-#flowerpotSn {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 370px;
-  top: 678px;
-}
-
 #sanaTable {
   position: absolute;
   width: 495px;
@@ -2154,7 +2124,7 @@
   top: 555px;
 }
 
-#questionSn {
+#question {
   position: absolute;
   width: 198px;
   height: 45px;
@@ -2272,7 +2242,7 @@
   top: 474px;
 }
 
-#bubble1Sn {
+#bubble1 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2280,7 +2250,7 @@
   top: 590px;
 }
 
-#bubble2Sn {
+#bubble2 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2288,7 +2258,7 @@
   top: 578px;
 }
 
-#bubble3Sn {
+#bubble3 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2296,7 +2266,7 @@
   top: 581px;
 }
 
-#bubble4Sn {
+#bubble4 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2304,7 +2274,7 @@
   top: 576px;
 }
 
-#bubble5Sn {
+#bubble5 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2312,7 +2282,7 @@
   top: 592px;
 }
 
-#bubble6Sn {
+#bubble6 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2320,7 +2290,7 @@
   top: 584px;
 }
 
-#bubble7Sn {
+#bubble7 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -2328,7 +2298,7 @@
   top: 593px;
 }
 
-#bubble8Sn {
+#bubble8 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2336,7 +2306,7 @@
   top: 583px;
 }
 
-#bubble9Sn {
+#bubble9 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2407,14 +2377,6 @@
   height: 80px;
   left: 850px;
   top: 542px;
-}
-
-#plateSn {
-  position: absolute;
-  width: 160px;
-  height: 57px;
-  left: 845px;
-  top: 562px;
 }
 
 #grape {
@@ -2511,14 +2473,6 @@
           transform-origin: 30px 118px;
 }
 
-#flowerpotJh {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 338px;
-  top: 637px;
-}
-
 #jihyoTable {
   position: absolute;
   width: 500px;
@@ -2547,7 +2501,7 @@
   top: 555px;
 }
 
-#questionJh {
+#question {
   position: absolute;
   width: 189.9px;
   height: 8px;
@@ -2661,7 +2615,7 @@
   top: 474px;
 }
 
-#bubble1Jh {
+#bubble1 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2669,7 +2623,7 @@
   top: 590px;
 }
 
-#bubble2Jh {
+#bubble2 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2677,7 +2631,7 @@
   top: 578px;
 }
 
-#bubble3Jh {
+#bubble3 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2685,7 +2639,7 @@
   top: 581px;
 }
 
-#bubble4Jh {
+#bubble4 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2693,7 +2647,7 @@
   top: 576px;
 }
 
-#bubble5Jh {
+#bubble5 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2701,7 +2655,7 @@
   top: 592px;
 }
 
-#bubble6Jh {
+#bubble6 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2709,7 +2663,7 @@
   top: 584px;
 }
 
-#bubble7Jh {
+#bubble7 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -2717,7 +2671,7 @@
   top: 593px;
 }
 
-#bubble8Jh {
+#bubble8 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2725,7 +2679,7 @@
   top: 583px;
 }
 
-#bubble9Jh {
+#bubble9 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -2779,14 +2733,6 @@
   height: 80px;
   left: 850px;
   top: 542px;
-}
-
-#plateJh {
-  position: absolute;
-  width: 160px;
-  height: 57px;
-  left: 845px;
-  top: 562px;
 }
 
 #banana {
@@ -2883,14 +2829,6 @@
           transform-origin: 42px 74px;
 }
 
-#flowerpotMn {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 370px;
-  top: 678px;
-}
-
 #minaTable {
   position: absolute;
   width: 451px;
@@ -2925,7 +2863,7 @@
   top: 548px;
 }
 
-#questionMn {
+#question {
   position: absolute;
   width: 198px;
   height: 45px;
@@ -3043,7 +2981,7 @@
   top: 474px;
 }
 
-#bubble1Mn {
+#bubble1 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3051,7 +2989,7 @@
   top: 590px;
 }
 
-#bubble2Mn {
+#bubble2 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3059,7 +2997,7 @@
   top: 578px;
 }
 
-#bubble3Mn {
+#bubble3 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3067,7 +3005,7 @@
   top: 581px;
 }
 
-#bubble4Mn {
+#bubble4 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3075,7 +3013,7 @@
   top: 576px;
 }
 
-#bubble5Mn {
+#bubble5 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3083,7 +3021,7 @@
   top: 592px;
 }
 
-#bubble6Mn {
+#bubble6 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3091,7 +3029,7 @@
   top: 584px;
 }
 
-#bubble7Mn {
+#bubble7 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -3099,7 +3037,7 @@
   top: 593px;
 }
 
-#bubble8Mn {
+#bubble8 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3107,7 +3045,7 @@
   top: 583px;
 }
 
-#bubble9Mn {
+#bubble9 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3163,14 +3101,6 @@
   top: 542px;
 }
 
-#plateMn {
-  position: absolute;
-  width: 160px;
-  height: 57px;
-  left: 945px;
-  top: 562px;
-}
-
 #minaMoon {
   position: absolute;
   width: 9px;
@@ -3189,10 +3119,10 @@
 
 #lily-flower {
   position: absolute;
-  width: 63px;
-  height: 50px;
-  left: 355px;
-  top: 535px;
+  width: 69px;
+  height: 56px;
+  left: 390px;
+  top: 530px;
   -webkit-animation: rotate10deg 2.0s infinite;
           animation: rotate10deg 2.0s infinite;
   -webkit-animation-direction: alternate;
@@ -3265,14 +3195,6 @@
           transform-origin: 42px 74px;
 }
 
-#flowerpotDh {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 340px;
-  top: 685px;
-}
-
 #dahyunTable {
   position: absolute;
   width: 495px;
@@ -3307,7 +3229,7 @@
   top: 552px;
 }
 
-#questionDh {
+#question {
   position: absolute;
   width: 198px;
   height: 45px;
@@ -3417,7 +3339,7 @@
   cursor: pointer;
 }
 
-#bubble1Dh {
+#bubble1 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3425,7 +3347,7 @@
   top: 590px;
 }
 
-#bubble2Dh {
+#bubble2 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3433,7 +3355,7 @@
   top: 578px;
 }
 
-#bubble3Dh {
+#bubble3 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3441,7 +3363,7 @@
   top: 581px;
 }
 
-#bubble4Dh {
+#bubble4 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3449,7 +3371,7 @@
   top: 576px;
 }
 
-#bubble5Dh {
+#bubble5 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3457,7 +3379,7 @@
   top: 592px;
 }
 
-#bubble6Dh {
+#bubble6 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3465,7 +3387,7 @@
   top: 584px;
 }
 
-#bubble7Dh {
+#bubble7 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -3473,7 +3395,7 @@
   top: 593px;
 }
 
-#bubble8Dh {
+#bubble8 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3481,7 +3403,7 @@
   top: 583px;
 }
 
-#bubble9Dh {
+#bubble9 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3570,20 +3492,12 @@
   top: -88px;
 }
 
-#flowerpotCy {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 305px;
-  top: 643px;
-}
-
 #tulip-flower {
   position: absolute;
   width: 42px;
   height: 56px;
-  left: 337px;
-  top: 483px;
+  left: 400px;
+  top: 515px;
   -webkit-animation: rotate10deg 2.0s infinite;
           animation: rotate10deg 2.0s infinite;
   -webkit-animation-direction: alternate;
@@ -3658,9 +3572,9 @@
 
 #chaeyoungTable {
   position: absolute;
-  width: 495px;
+  width: 600px;
   height: 305px;
-  left: 807px;
+  left: 700px;
   top: 502px;
 }
 
@@ -3690,7 +3604,7 @@
   top: 552px;
 }
 
-#questionCy {
+#question {
   position: absolute;
   width: 198px;
   height: 45px;
@@ -3800,7 +3714,7 @@
   cursor: pointer;
 }
 
-#bubble1Cy {
+#bubble1 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3808,7 +3722,7 @@
   top: 590px;
 }
 
-#bubble2Cy {
+#bubble2 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3816,7 +3730,7 @@
   top: 578px;
 }
 
-#bubble3Cy {
+#bubble3 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3824,7 +3738,7 @@
   top: 581px;
 }
 
-#bubble4Cy {
+#bubble4 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3832,7 +3746,7 @@
   top: 576px;
 }
 
-#bubble5Cy {
+#bubble5 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3840,7 +3754,7 @@
   top: 592px;
 }
 
-#bubble6Cy {
+#bubble6 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3848,7 +3762,7 @@
   top: 584px;
 }
 
-#bubble7Cy {
+#bubble7 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -3856,7 +3770,7 @@
   top: 593px;
 }
 
-#bubble8Cy {
+#bubble8 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -3864,7 +3778,7 @@
   top: 583px;
 }
 
-#bubble9Cy {
+#bubble9 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -4023,19 +3937,11 @@
           transform-origin: 42px 74px;
 }
 
-#flowerpotTy {
-  position: absolute;
-  width: 105px;
-  height: 113px;
-  left: 370px;
-  top: 678px;
-}
-
 #tzuyuTable {
   position: absolute;
-  width: 443px;
+  width: 470px;
   height: 198px;
-  left: 881px;
+  left: 830px;
   top: 544px;
 }
 
@@ -4175,7 +4081,7 @@
   cursor: pointer;
 }
 
-#bubble1Ty {
+#bubble1 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -4183,7 +4089,7 @@
   top: 590px;
 }
 
-#bubble2Ty {
+#bubble2 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -4191,7 +4097,7 @@
   top: 578px;
 }
 
-#bubble3Ty {
+#bubble3 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -4199,7 +4105,7 @@
   top: 581px;
 }
 
-#bubble4Ty {
+#bubble4 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -4207,7 +4113,7 @@
   top: 576px;
 }
 
-#bubble5Ty {
+#bubble5 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -4215,7 +4121,7 @@
   top: 592px;
 }
 
-#bubble6Ty {
+#bubble6 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -4223,7 +4129,7 @@
   top: 584px;
 }
 
-#bubble7Ty {
+#bubble7 {
   position: absolute;
   width: 16px;
   height: 16px;
@@ -4231,7 +4137,7 @@
   top: 593px;
 }
 
-#bubble8Ty {
+#bubble8 {
   position: absolute;
   width: 16px;
   height: 17px;
@@ -4239,7 +4145,7 @@
   top: 583px;
 }
 
-#bubble9Ty {
+#bubble9 {
   position: absolute;
   width: 16px;
   height: 17px;
