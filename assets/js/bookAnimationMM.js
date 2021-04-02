@@ -9,4 +9,7 @@ book.addEventListener('click', () => {
         if (idx > 3) idx = 3;
     }, 50)
 
+
+    quiz1.setup(book);
+    quiz1.show();
 })
