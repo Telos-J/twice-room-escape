@@ -5,13 +5,12 @@ const bubbleTea = document.querySelector('#bubble-tea');
 for (let answer of answers) {
     answer.addEventListener('click', () => {
         if (answer.innerHTML === '1999.06.14.') {
-            console.log('You are correct!🎉')
-            quiz.classList.remove('show')
+            console.log('You are correct!🎉');
+            quiz.classList.remove('show');
             gsap.to(bubbleTea, { opacity: 0, duration: 1 });
-        }
-        else {
+        } else {
             console.log('You are wrong, try again...😭')
             gsap.to(quiz, { x: 10, repeat: 3, yoyo: true, duration: 0.1 });
         }
-    })
+    });
 }
