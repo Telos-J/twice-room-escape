@@ -1,17 +1,17 @@
-const answers = Array.from (document.querySelectorAll('.tzuyuChoice-text'))
+const answers = Array.from(document.querySelectorAll('.choice-text'))
 const quiz = document.querySelector('#quiz');
 const bubbleTea = document.querySelector('#bubble-tea');
 
 for (let answer of answers) {
-    answer.addEventListener('click',()=> {
+    answer.addEventListener('click', () => {
         if (answer.innerHTML === '1999.06.14.') {
             console.log('You are correct!🎉')
             quiz.classList.remove('show')
-            gsap.to(bubbleTea,{opacity:0,duration:1});
+            gsap.to(bubbleTea, { opacity: 0, duration: 1 });
         }
         else {
             console.log('You are wrong, try again...😭')
-            gsap.to(quiz,{x:10,repeat:3,yoyo:true, duration:0.1});
-    }
+            gsap.to(quiz, { x: 10, repeat: 3, yoyo: true, duration: 0.1 });
+        }
     })
 }
