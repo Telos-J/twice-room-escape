@@ -1,17 +1,4 @@
-const answers = Array.from(document.querySelectorAll('.choice-text'))
-const quiz = document.querySelector('#quiz');
-const bubbleTea = document.querySelector('#bubble-tea');
-
-for (let answer of answers) {
-    answer.addEventListener('click', () => {
-        if (answer.innerHTML === 'Ballet') {
-            console.log('You are correct!🎉')
-            quiz.classList.remove('show')
-            gsap.to(bubbleTea, { opacity: 0, duration: 1 });
-        }
-        else {
-            console.log('You are wrong, try again...😭')
-            gsap.to(quiz, { x: 10, repeat: 3, yoyo: true, duration: 0.1 });
-        }
-    })
-}
+const quiz1 = new Quiz("question1", ["choice1", "choice2", "choice3", "choice4"], 0);
+const quiz2 = new Quiz("question2", ["choice1", "choice2", "choice3", "choice4"], 1);
+const quiz3 = new Quiz("question3", ["choice1", "choice2", "choice3", "choice4"], 2);
+const quiz4 = new Quiz("question4", ["choice1", "choice2", "choice3", "choice4"], 3);

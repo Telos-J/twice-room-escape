@@ -376,6 +376,10 @@
   top: 735px;
 }
 
+.book {
+  display: none;
+}
+
 #painting {
   position: absolute;
   width: 424px;

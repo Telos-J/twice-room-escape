@@ -17,8 +17,8 @@ bubbleTea.addEventListener('click', () => {
                 document.querySelector('#firework').style.display = 'block';
                 document.querySelector('#bubble1').style.display = 'none';
 
-                quiz2.setup(bubbleTea);
-                quiz2.show();
+                quiz1.setup(bubbleTea);
+                quiz1.show();
             }
         });
 
