@@ -1,16 +1,12 @@
-//register the plugin (just once)
-gsap.registerPlugin(MotionPathPlugin);
+const book = document.querySelector('#book');
+const momoBookArray = ["../assets/img/Momo/momobook1.png", "../assets/img/Momo/momobook2.png", "../assets/img/Momo/momobook3.png", "../assets/img/Momo/momobook4.png"]
+let idx = 0;
 
-let clickable = true;
-document.querySelector('#book').addEventListener('click', () => {
-    if (clickable) {
-    gsap.to("#book", {
-    duration: 1, 
+book.addEventListener('click', () => {
+    window.setInterval(() => {
+        book.src = momoBookArray[idx]
+        idx++;
+        if (idx > 3) idx = 3;
+    }, 50)
 
-    onComplete() {
-        document.querySelector('#bookflipMM').style.display = 'block';
-    }
-    });
-    }
-    clickable = false;
 })
