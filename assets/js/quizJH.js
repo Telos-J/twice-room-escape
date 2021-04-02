@@ -1,4 +1,4 @@
-const answers = Array.from (document.querySelectorAll('.jihyoChoice-text'))
+const answers = Array.from (document.querySelectorAll('.choice-text'))
 const quiz = document.querySelector('#quiz');
 const bubbleTea = document.querySelector('#bubble-tea');
 
