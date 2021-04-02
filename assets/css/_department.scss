@@ -1,0 +1,34 @@
+@import "alphabet";
+@import "shapes";
+
+#roomdepartment {
+    position: absolute;
+    width: 1257px;
+    height: 675px;
+    left: 120px;
+    top: 344px;
+}
+
+#door {
+    position: absolute;
+    width: 169px;
+    height: 219px;
+    left: 681px;
+    top: 759px;
+    cursor: pointer;
+}
+
+#logo {
+    position: absolute;
+    width: 250px;
+    height: 237px;
+    left: 665px;
+    top: 251px;
+}
+
+#departmentContainer {
+    background-color: #AD00FF;
+    width: 100%;
+    height: 100%;
+}
+

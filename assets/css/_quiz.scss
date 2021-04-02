@@ -1,0 +1,212 @@
+#quiz {
+    position: absolute;
+    top: -10px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+#quiz.show {
+    opacity: 1;
+}
+
+#letter {
+    position: absolute;
+    width: 388px;
+    height: 320px;
+    left: 525px;
+    top: 380px;
+}
+
+#lightstick {
+    position: absolute;
+    width: 27px;
+    height: 28px;
+    left: 825px;
+    top: 628px;
+}
+
+#question {
+	position: absolute;
+	width: 165.58px;
+	height: 62.95px;
+	left: 660px;
+	top: 425px;
+
+	font-family: Satisfy;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 23px;
+	line-height: 33px;
+
+	color: #000000;
+}
+
+#choice1 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 631px;
+    top: 478px; 
+}
+
+#choice1-text {
+    position: absolute;
+    width: 171px;
+    height: 21px;
+    left: 646px;
+    top: 501px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;   
+}
+
+#choice1-text {
+    position: absolute;
+    width: 171px;
+    height: 21px;
+    left: 646px;
+    top: 501px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+#choice2 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 628px;
+    top: 518px;   
+       
+}
+
+#choice2-text {
+    position: absolute;
+    width: 171px;
+    height: 21px;
+    left: 647px;
+    top: 543px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer; 
+}
+
+#choice2-text {
+    position: absolute;
+    width: 171px;
+    height: 21px;
+    left: 647px;
+    top: 543px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+#choice3 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 630px;
+    top: 560px;
+       
+}
+
+#choice3-text {
+    position: absolute;
+    width: 170px;
+    height: 23px;
+    left: 647px;
+    top: 582px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+#choice3-text {
+    position: absolute;
+    width: 170px;
+    height: 23px;
+    left: 647px;
+    top: 582px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+#choice4 {
+    position: absolute;
+    width: 198px;
+    height: 59px;
+    left: 629px;
+    top: 602px;
+}
+
+#choice4-text {
+    position: absolute;
+    width: 170px;
+    height: 23px;
+    left: 647px;
+    top: 625px;
+
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: #000000;
+    cursor: pointer;
+}
+
+#firework {
+    display: none;
+    position: absolute;
+    width: 614px;
+    height: 415px;
+    left: 456px;
+    top: 299px;
+}
+

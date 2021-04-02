@@ -1,0 +1,64 @@
+#container {
+    transform: scale(0.6) translate(-550px, -350px);
+    height: 1000px;
+    width: 1500px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#book {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 135px;
+    top: 801px;
+}
+
+#painting {
+    position: absolute;
+    width: 424px;
+    height: 209px;
+    left: 532px;
+    top: 64px;
+}
+
+#wall2 {
+    position: absolute;
+    width: 1015px;
+    height: 850px;
+    left: 270px;
+    top: -80px;
+}
+
+#floor {
+    position: absolute;
+    width: 2025px;
+    height: 600px;
+    left: -240px;
+    top: 650px;
+}
+
+#wall1 {
+    position: absolute;
+    width: 570px;
+    height: 1100px;
+    left: -226px;
+    top: -80px;
+}
+
+
+#wall3 {
+    position: absolute;
+    width: 600px;
+    height: 1205px;
+    left: 1200px;
+    top: -80px;
+}
+
+#room {
+    position: absolute;
+    width: 1832px;
+    height: 1142px;
+    left: -128px;
+    top: -65px;
+}

@@ -6,18 +6,6 @@
     top: 678px;
 }
 
-/* #rose-flower::after {
-    position: absolute;
-    left: 0;
-    width: 5px;
-    height: 5px;
-    content: '';
-    background-color: #f0f;
-    border-radius: 50%;
-    transform: translate(46px, 62px);
-    z-index: 10;
-} */
-
 #stem {
     position: absolute;
     width: 94px;
@@ -32,7 +20,7 @@
     height: 122px;
     left: 368px;
     top: 529px;
-    animation: rotate8deg 1.5s infinite;
+    animation: rotate--1-7 1.5s infinite;
     animation-direction: alternate;
     transform-origin: 30px 118px;
 }
@@ -43,7 +31,7 @@
     height: 122px;
     left: 384px;
     top: 541px;
-    animation: rotate8deg 1.5s infinite;
+    animation: rotate--1-7 1.5s infinite;
     animation-direction: alternate;
     transform-origin: 46px 118px;
 }
@@ -54,7 +42,7 @@
     height: 56px;
     left: 368px;
     top: 619px;    
-    animation: rotate8deg 1.5s infinite;
+    animation: rotate--1-7 1.5s infinite;
     animation-direction: alternate;
     transform-origin: 47px 54px;
 }
@@ -65,7 +53,141 @@
     height: 76px;
     left: 395px;
     top: 602px;    
-    animation: rotate8deg 1.5s infinite;
+    animation: rotate--1-7 1.5s infinite;
     animation-direction: alternate;
     transform-origin: 42px 74px;
 }
+
+#rose-flower {
+    position: absolute;
+    width: 78px;
+    height: 82px;
+    left: 380px;
+    top: 509px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+/* #rose-flower::after {
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    content: '';
+    background-color: #f0f;
+    border-radius: 50%;
+    transform: translate(46px, 62px);
+    z-index: 10;
+} */
+
+#bluestar-flower {
+    position: absolute;
+    width: 78px;
+    height: 82px;
+    left: 380px;
+    top: 509px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#jeongyeon-flower {
+    position: absolute;
+    width: 72px;
+    height: 47px;
+    left: 381px;
+    top: 520px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#hibiscus-flower {
+    position: absolute;
+    width: 91px;
+    height: 75px;
+    left: 379px;
+    top: 505px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#hibiscus-flower {
+    position: absolute;
+    width: 91px;
+    height: 75px;
+    left: 379px;
+    top: 505px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#sunflower {
+    position: absolute;
+    width: 98px;
+    height: 87px;
+    left: 366px;
+    top: 493px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#mina-flower {
+    position: absolute;
+    width: 63px;
+    height: 64px;
+    left: 390px;
+    top: 510px;    
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#lily-flower {
+    position: absolute;
+    width: 69px;
+    height: 56px;
+    left: 390px;
+    top: 530px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#tulip-flower {
+    position: absolute;
+    width: 42px;
+    height: 56px;
+    left: 400px;
+    top: 515px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#tzuyu-flower {
+    position: absolute;
+    width: 66px;
+    height: 83px;
+    left: 394px;
+    top: 485px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+
+#sana-flower {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 389px;
+    top: 520px;
+    animation: rotate--7-3 2.0s infinite;
+    animation-direction: alternate;
+    transform-origin: 46px 62px;
+}
+

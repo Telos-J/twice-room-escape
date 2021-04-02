@@ -1,0 +1,130 @@
+#star {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 227.24px;
+    top: 409px;
+
+    transform: rotate(20.26deg);
+
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 48px 48px;
+}
+
+#triangle {
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 388px;
+    top: 532.46px;
+
+    transform: rotate(-22.53deg);
+
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 51.5px 51.5px;
+}
+
+#heart {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 271.05px;
+    top: 606px;
+
+    transform: rotate(25.94deg);
+    
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 43.5px 43.5px;
+}
+
+#circle {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 455px;
+    top: 708px;
+
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 46px 46px;
+}
+
+#raindrop {
+    position: absolute;
+    width: 49px;
+    height: 95px;
+    left: 312.49px;
+    top: 815px;
+
+    transform: rotate(22.59deg);
+
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 51.5px 51.5px;
+}
+
+#moon {
+    position: absolute;
+    width: 82px;
+    height: 91px;
+    left: 929px;
+    top: 458.02px;
+
+    transform: rotate(-25.28deg);
+
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 41px 45.5px;
+}
+
+#square {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 1166px;
+    top: 515px;
+
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 39px 39px;
+}
+
+#rhombus {
+    position: absolute;
+    width: 82px;
+    height: 82px;
+    left: 1060.63px;
+    top: 665px;
+
+    transform: rotate(35.51deg); 
+
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 41px 41px;
+}
+
+#ellipse {
+    position: absolute;
+    width: 82px;
+    height: 113px;
+    left: 1170.57px;
+    top: 806px;    
+
+    transform: rotate(17.28deg);
+
+    animation: rotate--1-7 2.0s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transform-origin: 41px 56.5px;
+}
