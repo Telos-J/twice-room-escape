@@ -754,7 +754,7 @@
 
 #quiz {
   position: absolute;
-  top: -10px;
+  top: -100px;
   opacity: 0;
   transition: opacity 1s;
 }
