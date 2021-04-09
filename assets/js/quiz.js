@@ -51,6 +51,6 @@ class Quiz {
     }
 
     show() {
-        quiz.classList.add('show');
+        gsap.fromTo(quiz, {opacity: 0}, {display: "block", opacity: 1, duration: 1})
     }
 }

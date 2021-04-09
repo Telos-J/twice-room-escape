@@ -1,20 +1,15 @@
 #quiz {
     position: absolute;
     top: -100px;
-    opacity: 0;
-    transition: opacity 1s;
-}
-
-#quiz.show {
-    opacity: 1;
+    display: none;
 }
 
 #letter {
     position: absolute;
-    width: 388px;
-    height: 320px;
-    left: 525px;
-    top: 380px;
+    width: 600px;
+    height: 500px;
+    left: 419px;
+    top: 267px;
 }
 
 #lightstick {
@@ -26,28 +21,29 @@
 }
 
 #question {
-	position: absolute;
-	width: 184px;
-	height: 62.95px;
-	left: 644px;
-	top: 425px;
-
-	font-family: Satisfy;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 23px;
-	line-height: 33px;
+    display: flex;
+    position: absolute;
+    width: 309px;
+    height: 120px;
+    left: 584px;
+    top: 353px;
+    font-family: Satisfy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
     text-align: center;
-
-	color: #000000;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
 }
 
 #choice1 {
     position: absolute;
-    width: 198px;
-    height: 59px;
-    left: 631px;
-    top: 478px; 
+    width: 305px;
+    height: 82px;
+    left: 576px;
+    top: 470px;
 }
 
 #choice1-text {
@@ -55,25 +51,7 @@
     width: 171px;
     height: 21px;
     left: 646px;
-    top: 501px;
-
-    font-family: Satisfy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-
-    color: #000000;
-    cursor: pointer;   
-}
-
-#choice1-text {
-    position: absolute;
-    width: 171px;
-    height: 21px;
-    left: 646px;
-    top: 501px;
+    top: 504px;
 
     font-family: Satisfy;
     font-style: normal;
@@ -88,9 +66,9 @@
 
 #choice2 {
     position: absolute;
-    width: 198px;
-    height: 59px;
-    left: 628px;
+    width: 305px;
+    height: 82px;
+    left: 576px;
     top: 518px;   
        
 }
@@ -100,25 +78,7 @@
     width: 171px;
     height: 21px;
     left: 647px;
-    top: 543px;
-
-    font-family: Satisfy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-
-    color: #000000;
-    cursor: pointer; 
-}
-
-#choice2-text {
-    position: absolute;
-    width: 171px;
-    height: 21px;
-    left: 647px;
-    top: 543px;
+    top: 552px;
 
     font-family: Satisfy;
     font-style: normal;
@@ -133,9 +93,9 @@
 
 #choice3 {
     position: absolute;
-    width: 198px;
-    height: 59px;
-    left: 630px;
+    width: 305px;
+    height: 82px;
+    left: 576px;
     top: 560px;
        
 }
@@ -145,7 +105,7 @@
     width: 170px;
     height: 23px;
     left: 647px;
-    top: 582px;
+    top: 597px;
 
     font-family: Satisfy;
     font-style: normal;
@@ -158,29 +118,12 @@
     cursor: pointer;
 }
 
-#choice3-text {
-    position: absolute;
-    width: 170px;
-    height: 23px;
-    left: 647px;
-    top: 582px;
-
-    font-family: Satisfy;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-
-    color: #000000;
-    cursor: pointer;
-}
 
 #choice4 {
     position: absolute;
-    width: 198px;
-    height: 59px;
-    left: 629px;
+    width: 305px;
+    height: 82px;
+    left: 576px;
     top: 602px;
 }
 
@@ -189,7 +132,7 @@
     width: 170px;
     height: 23px;
     left: 647px;
-    top: 625px;
+    top: 640px;
 
     font-family: Satisfy;
     font-style: normal;

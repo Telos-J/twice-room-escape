@@ -1,37 +1,83 @@
+@-webkit-keyframes rotate--7-3 {
+  0% {
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
+  }
+  100% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+  }
+}
+
 @keyframes rotate--7-3 {
   0% {
-    transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg);
+            transform: rotate(-7deg);
   }
   100% {
-    transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
   }
 }
+
+@-webkit-keyframes rotate--1-7 {
+  0% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+  }
+}
+
 @keyframes rotate--1-7 {
   0% {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
   100% {
-    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
   }
 }
+
+@-webkit-keyframes rotate--1-9 {
+  0% {
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
+  }
+  100% {
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
+  }
+}
+
 @keyframes rotate--1-9 {
   0% {
-    transform: rotate(-1deg);
+    -webkit-transform: rotate(-1deg);
+            transform: rotate(-1deg);
   }
   100% {
-    transform: rotate(9deg);
+    -webkit-transform: rotate(9deg);
+            transform: rotate(9deg);
   }
 }
+
 #E {
   position: absolute;
   width: 219px;
   height: 285px;
   left: 506px;
   top: 471px;
-  animation: rotate--1-9 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #S {
@@ -40,10 +86,13 @@
   height: 285px;
   left: 573px;
   top: 471px;
-  animation: rotate--1-9 2s infinite;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
   animation-direction: alternate-reverse;
-  animation-timing-function: linear;
-  transform-origin: 109.5x 142.5px;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5x 142.5px;
+          transform-origin: 109.5x 142.5px;
 }
 
 #C {
@@ -52,10 +101,14 @@
   height: 285px;
   left: 629px;
   top: 471px;
-  animation: rotate--1-9 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #A {
@@ -64,10 +117,13 @@
   height: 285px;
   left: 699px;
   top: 471px;
-  animation: rotate--1-9 2s infinite;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
   animation-direction: alternate-reverse;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #P {
@@ -76,10 +132,14 @@
   height: 285px;
   left: 764px;
   top: 471px;
-  animation: rotate--1-9 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #E2 {
@@ -88,10 +148,13 @@
   height: 285px;
   left: 815px;
   top: 471px;
-  animation: rotate--1-9 2s infinite;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
   animation-direction: alternate-reverse;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #R {
@@ -100,10 +163,14 @@
   height: 285px;
   left: 573px;
   top: 567px;
-  animation: rotate--1-9 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #O {
@@ -112,10 +179,13 @@
   height: 285px;
   left: 605px;
   top: 567px;
-  animation: rotate--1-9 2s infinite;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
   animation-direction: alternate-reverse;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #O2 {
@@ -124,10 +194,14 @@
   height: 285px;
   left: 674px;
   top: 567px;
-  animation: rotate--1-9 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #M {
@@ -136,10 +210,13 @@
   height: 285px;
   left: 753px;
   top: 567px;
-  animation: rotate--1-9 2s infinite;
+  -webkit-animation: rotate--1-9 2.0s infinite;
+          animation: rotate--1-9 2.0s infinite;
   animation-direction: alternate-reverse;
-  animation-timing-function: linear;
-  transform-origin: 109.5px 142.5px;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 109.5px 142.5px;
+          transform-origin: 109.5px 142.5px;
 }
 
 #star {
@@ -148,11 +225,16 @@
   height: 96px;
   left: 227.24px;
   top: 409px;
-  transform: rotate(20.26deg);
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 48px 48px;
+  -webkit-transform: rotate(20.26deg);
+          transform: rotate(20.26deg);
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 48px 48px;
+          transform-origin: 48px 48px;
 }
 
 #triangle {
@@ -161,11 +243,16 @@
   height: 103px;
   left: 388px;
   top: 532.46px;
-  transform: rotate(-22.53deg);
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 51.5px 51.5px;
+  -webkit-transform: rotate(-22.53deg);
+          transform: rotate(-22.53deg);
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 51.5px 51.5px;
+          transform-origin: 51.5px 51.5px;
 }
 
 #heart {
@@ -174,11 +261,16 @@
   height: 87px;
   left: 271.05px;
   top: 606px;
-  transform: rotate(25.94deg);
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 43.5px 43.5px;
+  -webkit-transform: rotate(25.94deg);
+          transform: rotate(25.94deg);
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 43.5px 43.5px;
+          transform-origin: 43.5px 43.5px;
 }
 
 #circle {
@@ -187,10 +279,14 @@
   height: 92px;
   left: 455px;
   top: 708px;
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 46px 46px;
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 46px 46px;
+          transform-origin: 46px 46px;
 }
 
 #raindrop {
@@ -199,11 +295,16 @@
   height: 95px;
   left: 312.49px;
   top: 815px;
-  transform: rotate(22.59deg);
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 51.5px 51.5px;
+  -webkit-transform: rotate(22.59deg);
+          transform: rotate(22.59deg);
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 51.5px 51.5px;
+          transform-origin: 51.5px 51.5px;
 }
 
 #moon {
@@ -212,11 +313,16 @@
   height: 91px;
   left: 929px;
   top: 458.02px;
-  transform: rotate(-25.28deg);
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 41px 45.5px;
+  -webkit-transform: rotate(-25.28deg);
+          transform: rotate(-25.28deg);
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 41px 45.5px;
+          transform-origin: 41px 45.5px;
 }
 
 #square {
@@ -225,10 +331,14 @@
   height: 78px;
   left: 1166px;
   top: 515px;
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 39px 39px;
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 39px 39px;
+          transform-origin: 39px 39px;
 }
 
 #rhombus {
@@ -237,11 +347,16 @@
   height: 82px;
   left: 1060.63px;
   top: 665px;
-  transform: rotate(35.51deg);
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 41px 41px;
+  -webkit-transform: rotate(35.51deg);
+          transform: rotate(35.51deg);
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 41px 41px;
+          transform-origin: 41px 41px;
 }
 
 #ellipse {
@@ -250,11 +365,16 @@
   height: 113px;
   left: 1170.57px;
   top: 806px;
-  transform: rotate(17.28deg);
-  animation: rotate--1-7 2s infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-  transform-origin: 41px 56.5px;
+  -webkit-transform: rotate(17.28deg);
+          transform: rotate(17.28deg);
+  -webkit-animation: rotate--1-7 2.0s infinite;
+          animation: rotate--1-7 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-transform-origin: 41px 56.5px;
+          transform-origin: 41px 56.5px;
 }
 
 #roomdepartment {
@@ -586,9 +706,12 @@
   height: 122px;
   left: 368px;
   top: 529px;
-  animation: rotate--1-7 1.5s infinite;
-  animation-direction: alternate;
-  transform-origin: 30px 118px;
+  -webkit-animation: rotate--1-7 1.5s infinite;
+          animation: rotate--1-7 1.5s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 30px 118px;
+          transform-origin: 30px 118px;
 }
 
 #leaf2 {
@@ -597,9 +720,12 @@
   height: 122px;
   left: 384px;
   top: 541px;
-  animation: rotate--1-7 1.5s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 118px;
+  -webkit-animation: rotate--1-7 1.5s infinite;
+          animation: rotate--1-7 1.5s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 118px;
+          transform-origin: 46px 118px;
 }
 
 #leaf3 {
@@ -608,9 +734,12 @@
   height: 56px;
   left: 368px;
   top: 619px;
-  animation: rotate--1-7 1.5s infinite;
-  animation-direction: alternate;
-  transform-origin: 47px 54px;
+  -webkit-animation: rotate--1-7 1.5s infinite;
+          animation: rotate--1-7 1.5s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 47px 54px;
+          transform-origin: 47px 54px;
 }
 
 #leaf4 {
@@ -619,9 +748,12 @@
   height: 76px;
   left: 395px;
   top: 602px;
-  animation: rotate--1-7 1.5s infinite;
-  animation-direction: alternate;
-  transform-origin: 42px 74px;
+  -webkit-animation: rotate--1-7 1.5s infinite;
+          animation: rotate--1-7 1.5s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 42px 74px;
+          transform-origin: 42px 74px;
 }
 
 #rose-flower {
@@ -630,9 +762,12 @@
   height: 82px;
   left: 380px;
   top: 509px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 /* #rose-flower::after {
@@ -652,9 +787,12 @@
   height: 82px;
   left: 380px;
   top: 509px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #jeongyeon-flower {
@@ -663,9 +801,12 @@
   height: 47px;
   left: 381px;
   top: 520px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #hibiscus-flower {
@@ -674,9 +815,12 @@
   height: 75px;
   left: 379px;
   top: 505px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #hibiscus-flower {
@@ -685,9 +829,12 @@
   height: 75px;
   left: 379px;
   top: 505px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #sunflower {
@@ -696,9 +843,12 @@
   height: 87px;
   left: 366px;
   top: 493px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #mina-flower {
@@ -707,9 +857,12 @@
   height: 64px;
   left: 390px;
   top: 510px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #lily-flower {
@@ -718,9 +871,12 @@
   height: 56px;
   left: 390px;
   top: 530px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #tulip-flower {
@@ -729,9 +885,12 @@
   height: 56px;
   left: 400px;
   top: 515px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #tzuyu-flower {
@@ -740,9 +899,12 @@
   height: 83px;
   left: 394px;
   top: 485px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #sana-flower {
@@ -751,28 +913,26 @@
   height: 56px;
   left: 389px;
   top: 520px;
-  animation: rotate--7-3 2s infinite;
-  animation-direction: alternate;
-  transform-origin: 46px 62px;
+  -webkit-animation: rotate--7-3 2.0s infinite;
+          animation: rotate--7-3 2.0s infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-transform-origin: 46px 62px;
+          transform-origin: 46px 62px;
 }
 
 #quiz {
   position: absolute;
   top: -100px;
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-#quiz.show {
-  opacity: 1;
+  display: none;
 }
 
 #letter {
   position: absolute;
-  width: 388px;
-  height: 320px;
-  left: 525px;
-  top: 380px;
+  width: 600px;
+  height: 500px;
+  left: 419px;
+  top: 267px;
 }
 
 #lightstick {
@@ -784,11 +944,14 @@
 }
 
 #question {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
-  width: 184px;
-  height: 62.95px;
-  left: 644px;
-  top: 425px;
+  width: 309px;
+  height: 120px;
+  left: 584px;
+  top: 353px;
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
@@ -796,14 +959,20 @@
   line-height: 33px;
   text-align: center;
   color: #000000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #choice1 {
   position: absolute;
-  width: 198px;
-  height: 59px;
-  left: 631px;
-  top: 478px;
+  width: 305px;
+  height: 82px;
+  left: 576px;
+  top: 470px;
 }
 
 #choice1-text {
@@ -811,23 +980,7 @@
   width: 171px;
   height: 21px;
   left: 646px;
-  top: 501px;
-  font-family: Satisfy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 26px;
-  text-align: center;
-  color: #000000;
-  cursor: pointer;
-}
-
-#choice1-text {
-  position: absolute;
-  width: 171px;
-  height: 21px;
-  left: 646px;
-  top: 501px;
+  top: 504px;
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
@@ -840,9 +993,9 @@
 
 #choice2 {
   position: absolute;
-  width: 198px;
-  height: 59px;
-  left: 628px;
+  width: 305px;
+  height: 82px;
+  left: 576px;
   top: 518px;
 }
 
@@ -851,23 +1004,7 @@
   width: 171px;
   height: 21px;
   left: 647px;
-  top: 543px;
-  font-family: Satisfy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 26px;
-  text-align: center;
-  color: #000000;
-  cursor: pointer;
-}
-
-#choice2-text {
-  position: absolute;
-  width: 171px;
-  height: 21px;
-  left: 647px;
-  top: 543px;
+  top: 552px;
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
@@ -880,9 +1017,9 @@
 
 #choice3 {
   position: absolute;
-  width: 198px;
-  height: 59px;
-  left: 630px;
+  width: 305px;
+  height: 82px;
+  left: 576px;
   top: 560px;
 }
 
@@ -891,23 +1028,7 @@
   width: 170px;
   height: 23px;
   left: 647px;
-  top: 582px;
-  font-family: Satisfy;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 26px;
-  text-align: center;
-  color: #000000;
-  cursor: pointer;
-}
-
-#choice3-text {
-  position: absolute;
-  width: 170px;
-  height: 23px;
-  left: 647px;
-  top: 582px;
+  top: 597px;
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
@@ -920,9 +1041,9 @@
 
 #choice4 {
   position: absolute;
-  width: 198px;
-  height: 59px;
-  left: 629px;
+  width: 305px;
+  height: 82px;
+  left: 576px;
   top: 602px;
 }
 
@@ -931,7 +1052,7 @@
   width: 170px;
   height: 23px;
   left: 647px;
-  top: 625px;
+  top: 640px;
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
@@ -1058,7 +1179,8 @@
 *, *::before, *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -1070,7 +1192,8 @@ body {
   height: 1000px;
   width: 1500px;
   overflow: hidden;
-  transform-origin: top left;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
   opacity: 0;
 }
 
@@ -1079,5 +1202,4 @@ body {
   width: 100%;
   height: 100%;
 }
-
 /*# sourceMappingURL=style.css.map */
