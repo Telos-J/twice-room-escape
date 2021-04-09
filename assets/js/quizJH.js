@@ -1,4 +1,4 @@
-const quiz1 = new Quiz("question1", ["choice1", "choice2", "choice3", "choice4"], 0);
-const quiz2 = new Quiz("question2", ["choice1", "choice2", "choice3", "choice4"], 1);
-const quiz3 = new Quiz("question3", ["choice1", "choice2", "choice3", "choice4"], 2);
-const quiz4 = new Quiz("question4", ["choice1", "choice2", "choice3", "choice4"], 3);
+const quiz1 = new Quiz("What is Jihyo's favorite color?", ["Blue", "Purple", "Red", "Yellow"], 2);
+const quiz2 = new Quiz("What is Jihyo's nickname?", ["Microphone", "Strawberry princess", "Yoda", "Black Swan"], 0);
+const quiz3 = new Quiz("Which fruit is Jihyo allergic to?", ["Banana", "Pineapple", "Peach", "Mango"], 1);
+const quiz4 = new Quiz("When did Jihyo become a trainee?", ["2005.01.02.", "2005.03.02.", "2005.07.07.", "2005.07.15."], 3);

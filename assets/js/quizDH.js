@@ -1,4 +1,4 @@
-const quiz1 = new Quiz("question1", ["choice1", "choice2", "choice3", "choice4"], 0);
-const quiz2 = new Quiz("question2", ["choice1", "choice2", "choice3", "choice4"], 1);
-const quiz3 = new Quiz("question3", ["choice1", "choice2", "choice3", "choice4"], 2);
-const quiz4 = new Quiz("question4", ["choice1", "choice2", "choice3", "choice4"], 3);
+const quiz1 = new Quiz("What is Dahyun's nickname?", ["Rabbit", "Baby Tiger", "Shiba Inu", "Tofu"], 3);
+const quiz2 = new Quiz("What is Dahyun's special ability?", ["having strong muscles", "being really flexible", "singing", "dancing"], 1);
+const quiz3 = new Quiz("What is Dahyun's favorite color?", ["white", "blue", "purple", "black"], 0);
+const quiz4 = new Quiz("What is Dahyun's favorite number?", ["6", "21", "7", "12"], 2);

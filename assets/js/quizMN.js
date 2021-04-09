@@ -1,4 +1,4 @@
-const quiz1 = new Quiz("question1", ["choice1", "choice2", "choice3", "choice4"], 0);
-const quiz2 = new Quiz("question2", ["choice1", "choice2", "choice3", "choice4"], 1);
-const quiz3 = new Quiz("question3", ["choice1", "choice2", "choice3", "choice4"], 2);
-const quiz4 = new Quiz("question4", ["choice1", "choice2", "choice3", "choice4"], 3);
+const quiz1 = new Quiz("What is Mina best at?", ["Singing", "Drawing", "Composing lyrics", "Ballet"], 3);
+const quiz2 = new Quiz("Which is Mina's personality below?", ["clumsy", "loud", "elegant", "impatient"], 2);
+const quiz3 = new Quiz("When did Mina move to Kobe?", ["elementary student", "toddler", "middle school student", "high school student"], 1);
+const quiz4 = new Quiz("What is Mina's nickname?", ["Penguin", "Dancing machine", "Nabong", "Shiba Inu"], 0);

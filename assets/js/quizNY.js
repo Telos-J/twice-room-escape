@@ -1,4 +1,4 @@
-const quiz1 = new Quiz("What is my age?", ["14", "15", "16", "17"], 3);
-const quiz2 = new Quiz("question2", ["choice1", "choice2", "choice3", "choice4"], 1);
-const quiz3 = new Quiz("question3", ["choice1", "choice2", "choice3", "choice4"], 2);
-const quiz4 = new Quiz("question4", ["choice1", "choice2", "choice3", "choice4"], 3);
+const quiz1 = new Quiz("What is Nayeon's nickname?", ["Fake Maknae", "Dancing Machine", "Yoda", "Microphone"], 0);
+const quiz2 = new Quiz("What is the song that Nayeon wrote the lyrics of?", ["UP NO MORE", "MAKE ME GO", "DON'T GIVE UP", "GET LOUD"], 1);
+const quiz3 = new Quiz("When is Nayeon's birthday?", ["1995.02.01.", "1995.07.24.", "1995.09.22.", "1995.12.07."], 2);
+const quiz4 = new Quiz("What is Nayeon's hobby?", ["Drawing", "Sewing", "Dancing", "Watching drama/movie"], 3);
