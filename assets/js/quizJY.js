@@ -1,4 +1,4 @@
-const quiz1 = new Quiz("Which member does Jeongyeon share her room with?", ["Momo", "Sana", "Mina", "Jihyo"], 0);
-const quiz2 = new Quiz("When is Jeongyeo's birthday?", ["1996.11.09.", "1996.11.01.", "1996.12.03.", "1996.12.29."], 1);
-const quiz3 = new Quiz("How many song lyrics did Jeongyeon write?", ["8", "6", "4", "5"], 2);
-const quiz4 = new Quiz("Where is Jeongyeon's birthplace?", ["Guri-si", "Seongnam-si", "Sangil-dong", "Suwon-si"], 3);
+const quiz1 = new Quiz("What is the disease 'Itai Itai'caused by?", ["Manganize", "Carbon", "Cadmium", "None of these"], 2);
+const quiz2 = new Quiz("Which of the following energy sources is/are the alternative energy to fossil fuel?", ["Marine energy", "Wind energy", "Solar energy", "All of these"], 3);
+const quiz3 = new Quiz("What does deforestation generally decrease?", ["Rainfall", "Global warming", "Soil erosion", "Drought"], 0);
+const quiz4 = new Quiz("At which decibels does sound become hazardous noise pollution?", ["Above 50", "Above 80", "Above 100", "Above 130"], 1);
