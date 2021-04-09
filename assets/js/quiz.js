@@ -24,8 +24,8 @@ class Quiz {
     callback(object, choice) {
         if (choice === this.answer) {
             console.log('You are correct!🎉')
-            gsap.to(object, { opacity: 0, duration: 1 });
-            gsap.to(quiz, {opacity: 0, display: 'none', duration: 1})
+            gsap.to(object, { opacity: 0, display: 'none', duration: 1 });
+            gsap.to(quiz, {opacity: 0, display: 'none', duration: 1});
             clickable = true;
         } else {
             console.log('You are wrong, try again...😭')
