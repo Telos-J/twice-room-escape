@@ -977,9 +977,9 @@
 
 #choice1-text {
   position: absolute;
-  width: 171px;
+  width: 225px;
   height: 21px;
-  left: 646px;
+  left: 619px;
   top: 504px;
   font-family: Satisfy;
   font-style: normal;
@@ -1002,10 +1002,10 @@
 
 #choice2-text {
   position: absolute;
-  width: 171px;
-  height: 21px;
-  left: 647px;
   top: 552px;
+  width: 225px;
+  height: 21px;
+  left: 619px;
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
@@ -1027,10 +1027,10 @@
 
 #choice3-text {
   position: absolute;
-  width: 170px;
-  height: 23px;
-  left: 647px;
   top: 597px;
+  width: 225px;
+  height: 21px;
+  left: 619px;
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
@@ -1052,10 +1052,10 @@
 
 #choice4-text {
   position: absolute;
-  width: 170px;
-  height: 23px;
-  left: 647px;
   top: 640px;
+  width: 225px;
+  height: 21px;
+  left: 619px;
   font-family: Satisfy;
   font-style: normal;
   font-weight: normal;
