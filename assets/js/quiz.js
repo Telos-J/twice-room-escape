@@ -15,7 +15,8 @@ function resetChoices() {
 }
 
 class Quiz {
-    constructor(question, choices, answer) {
+    constructor(member, question, choices, answer) {
+        this.member = member;
         this.question = question;
         this.choices = choices;
         this.answer = choices[answer];
@@ -35,11 +36,13 @@ class Quiz {
             for (let quiz of quizzes) {
                 if (!quiz.answered) allAnswered = false;
             }
-            if (allAnswered) {
+            if (!allAnswered) {
                 console.log('You have answered all questions correctly!')
                 const url = "../pages/rooms.html";
-                const params = "?nayeon=true"; //&jeongyeon=false";
-                window.location.replace(url + params)
+                let queryString = window.location.search;
+                let prefix = queryString ? '&' : '?';
+                queryString = queryString + prefix + this.member;
+                window.location.replace(url + queryString)
             }
 
         } else {
