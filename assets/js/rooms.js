@@ -18,4 +18,28 @@ for (let key of urlParams.keys()) {
     else if (key === 'jeongyeon') {
         gsap.to('#jeongyeonRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
     }
+    else if (key === 'momo') {
+        gsap.to('#momoRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
+    }
+    else if (key === 'sana') {
+        gsap.to('#sanaRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
+     }     
+    else if (key === 'jihyo') {
+        gsap.to('#jihyoRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
+    }
+    else if (key === 'mina') {
+        gsap.to('#minaRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
+    }      
+    else if (key === 'dahyun') {
+        gsap.to('#dahyunRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
+    } 
+    else if (key === 'chaeyoung') {
+        gsap.to('#chaeyoungRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
+     }  
+    else if (key === 'tzuyu') {
+        gsap.to('#tzuyuRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
+     }   
+    else if (key === 'twice') {
+        gsap.to('#twiceRoom', { delay: 1, duration: 1, opacity: 0, display: 'none' })
+     }      
 }
