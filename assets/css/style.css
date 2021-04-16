@@ -684,6 +684,11 @@
   top: 564px;
 }
 
+#flower {
+  -webkit-transform-origin: 419px 780px;
+          transform-origin: 419px 780px;
+}
+
 #flowerpot {
   position: absolute;
   width: 105px;
