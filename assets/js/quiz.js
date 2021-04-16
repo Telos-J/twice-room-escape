@@ -1,3 +1,4 @@
+const quizzes = [];
 const quiz = document.querySelector('#quiz');
 const question = quiz.querySelector('#question');
 let choices = Array.from(quiz.querySelectorAll('.choice-text'));
@@ -19,6 +20,8 @@ class Quiz {
         this.choices = choices;
         this.answer = choices[answer];
         this.callBacks = [];
+        this.answered = false;
+        quizzes.push(this);
     }
 
     callback(object, choice) {
@@ -27,6 +30,17 @@ class Quiz {
             gsap.to(object, { opacity: 0, display: 'none', duration: 1 });
             gsap.to(quiz, {opacity: 0, display: 'none', duration: 1});
             clickable = true;
+            this.answered = true;
+            let allAnswered = true;
+            for (let quiz of quizzes) {
+                console.log(quiz.answered) {
+                    if (!quiz.answered) allAnswered = false;
+                }
+                if (allAnswered) {
+                    console.log('You have answered all questions correctly!')
+                }
+
+            }
         } else {
             console.log('You are wrong, try again...😭')
             gsap.to(quiz, { x: 10, repeat: 3, yoyo: true, duration: 0.1 });
