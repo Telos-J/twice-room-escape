@@ -35,7 +35,7 @@ class Quiz {
             for (let quiz of quizzes) {
                 if (!quiz.answered) allAnswered = false;
             }
-            if (!allAnswered) {
+            if (allAnswered) {
                 console.log('You have answered all questions correctly!')
                 const url = "../pages/rooms.html";
                 const params = "?nayeon=true"; //&jeongyeon=false";
