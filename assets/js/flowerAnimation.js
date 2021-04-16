@@ -10,7 +10,6 @@ flower.addEventListener('click', () => {
                 quiz3.show();
             }
         })
-        
         clickable = false;
     }
 })
