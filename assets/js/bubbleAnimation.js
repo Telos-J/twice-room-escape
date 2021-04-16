@@ -14,6 +14,7 @@ bubbleTea.addEventListener('click', () => {
                 alignOrigin: [0.5, 0.5]
             },
             onComplete() {
+                document.querySelector('#firework').src = '../assets/img/Common/firework.gif';
                 document.querySelector('#firework').style.display = 'block';
                 document.querySelector('#bubble1').style.display = 'none';
 
