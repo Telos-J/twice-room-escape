@@ -1,4 +1,4 @@
-const quiz1 = new Quiz("How much water does it take, on average, to produce a pair of cotton jeans?", ["100L", "1000L", "10000L", "100000L"], 2);
-const quiz2 = new Quiz("Which of the following process unit is used for air pollution control in chemical plants?", ["Thermal Oxidizer", "VPCU", "Fluidized bed combustion", "None of these"], 0);
-const quiz3 = new Quiz("What is the full form of BOD?", ["Bactorial Oxygen Demand", "Biological Oxygen Demand", "Biological Oxide Demand", "None of these"], 1);
-const quiz4 = new Quiz("How much percentage of nitrogen consist in Earth's atmosphere?", ["25%", "12%", "92%", "78%"], 3);
+const quiz1 = new Quiz("What is Nayeon's nickname?", ["Fake Maknae", "Dancing Machine", "Yoda", "Microphone"], 0);
+const quiz2 = new Quiz("What is the song that Nayeon wrote the lyrics of?", ["UP NO MORE", "MAKE ME GO", "DON'T GIVE UP", "GET LOUD"], 1);
+const quiz3 = new Quiz("When is Nayeon's birthday?", ["1995.02.01.", "1995.07.24.", "1995.09.22.", "1995.12.07."], 2);
+const quiz4 = new Quiz("What is Nayeon's hobby?", ["Drawing", "Sewing", "Dancing", "Watching drama/movie"], 3);

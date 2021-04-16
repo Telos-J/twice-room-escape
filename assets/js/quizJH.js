@@ -1,4 +1,4 @@
-const quiz1 = new Quiz("Which one of the following is NOT a primary layer of the atmosphere?", ["Mesosphere", "Troposphere", "Exosphere", "Stratosphere"], 2);
-const quiz2 = new Quiz("What is the natural process of the atmosphere heating through the trapping of re-radiated infrared radiation known as?", ["The greenhouse effect", "Thermal inversion", "Solar heating", "Global warming"], 0);
-const quiz3 = new Quiz("Temperate forests are likely to have which of the following species of trees?", ["Pine", "Spruce", "Redwood", "All of the above"], 3);
-const quiz4 = new Quiz("PVC is a very toxic form of plastic. What is the full form of PVC?", ["Plastic vinyl compounds", "Polyvinyl chloride", "polymer vinyl chloride", "polyvinyl camphor"], 1);
+const quiz1 = new Quiz("What is Jihyo's favorite color?", ["Blue", "Purple", "Red", "Yellow"], 2);
+const quiz2 = new Quiz("What is Jihyo's nickname?", ["Microphone", "Strawberry princess", "Yoda", "Black Swan"], 0);
+const quiz3 = new Quiz("Which fruit is Jihyo allergic to?", ["Banana", "Pineapple", "Peach", "Mango"], 1);
+const quiz4 = new Quiz("When did Jihyo become a trainee?", ["2005.01.02.", "2005.03.02.", "2005.07.07.", "2005.07.15."], 3);
