@@ -28,19 +28,20 @@ class Quiz {
         if (choice === this.answer) {
             console.log('You are correct!🎉')
             gsap.to(object, { opacity: 0, display: 'none', duration: 1 });
-            gsap.to(quiz, {opacity: 0, display: 'none', duration: 1});
+            gsap.to(quiz, { opacity: 0, display: 'none', duration: 1 });
             clickable = true;
             this.answered = true;
             let allAnswered = true;
             for (let quiz of quizzes) {
-                console.log(quiz.answered) {
-                    if (!quiz.answered) allAnswered = false;
-                }
-                if (allAnswered) {
-                    console.log('You have answered all questions correctly!')
-                }
-
+                if (!quiz.answered) allAnswered = false;
             }
+            if (allAnswered) {
+                console.log('You have answered all questions correctly!')
+                const url = "../pages/rooms.html";
+                const params = "?nayeon=true"; //&jeongyeon=false";
+                window.location.replace(url + params)
+            }
+
         } else {
             console.log('You are wrong, try again...😭')
             gsap.to(quiz, { x: 10, repeat: 3, yoyo: true, duration: 0.1 });
@@ -65,6 +66,6 @@ class Quiz {
     }
 
     show() {
-        gsap.fromTo(quiz, {opacity: 0}, {display: "block", opacity: 1, duration: 1})
+        gsap.fromTo(quiz, { opacity: 0 }, { display: "block", opacity: 1, duration: 1 })
     }
 }
